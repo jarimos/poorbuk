@@ -1,11 +1,87 @@
 <?php
+//2019
+/*
+$indicesServer = array('PHP_SELF',
+    'argv',
+    'argc',
+    'GATEWAY_INTERFACE',
+    'SERVER_ADDR',
+    'SERVER_NAME',
+    'SERVER_SOFTWARE',
+    'SERVER_PROTOCOL',
+    'REQUEST_METHOD',
+    'REQUEST_TIME',
+    'REQUEST_TIME_FLOAT',
+    'QUERY_STRING',
+    'DOCUMENT_ROOT',
+    'HTTP_ACCEPT',
+    'HTTP_ACCEPT_CHARSET',
+    'HTTP_ACCEPT_ENCODING',
+    'HTTP_ACCEPT_LANGUAGE',
+    'HTTP_CONNECTION',
+    'HTTP_HOST',
+    'HTTP_REFERER',
+    'HTTP_USER_AGENT',
+    'HTTPS',
+    'REMOTE_ADDR',
+    'REMOTE_HOST',
+    'REMOTE_PORT',
+    'REMOTE_USER',
+    'REDIRECT_REMOTE_USER',
+    'SCRIPT_FILENAME',
+    'SERVER_ADMIN',
+    'SERVER_PORT',
+    'SERVER_SIGNATURE',
+    'PATH_TRANSLATED',
+    'SCRIPT_NAME',
+    'REQUEST_URI',
+    'PHP_AUTH_DIGEST',
+    'PHP_AUTH_USER',
+    'PHP_AUTH_PW',
+    'AUTH_TYPE',
+    'PATH_INFO',
+    'ORIG_PATH_INFO') ;
+/*
+echo '<table cellpadding="10">' ;
+foreach ($indicesServer as $arg) {
+    if (isset($_SERVER[$arg])) {
+        echo '<tr><td>'.$arg.'</td><td>' . $_SERVER[$arg] . '</td></tr>' ;
+    }
+    else {
+        echo '<tr><td>'.$arg.'</td><td>-</td></tr>' ;
+    }
+}
+echo '</table>' ;
+*/ //END 2019
+
+//ACTIVATE: REMOVE COMMENTS FROM ob_start()HERE AND FROM ob_end_clean(); in controller.class.php about line 438
+// JARIM 29-09-2019 DEACTIVATED
+//ob_start();
+//echo 'Text that won\'t get displayed.'; START IN controller.class.php
+//ob_end_clean();
+//START IN controller.class.php
+/*END-CODE FOR DELETING ALL PREVIOS INFO FROM OUTPUT TO HTML DOC*/
+//echo $myNewPathNow = $_SERVER['DOCUMENT_ROOT'].dirname($_SERVER['PHP_SELF']);
+//echo "<br><br>myNewPathNow = $myNewPathNow <br><br>"; // C:/xampp/htdocs/poorbuk/testDB.php 
+//
+
+//echo "HTTP_HOST : " . $_SERVER['HTTP_HOST'] . "<br>"; // C:/xampp/htdocs/poorbuk/testDB.php
+//echo "PHP_SELF : " . $_SERVER['PHP_SELF'] . "<br>"; // C:/xampp/htdocs/poorbuk/testDB.php
+//echo "SCRIPT_FILENAME : " . $_SERVER['SCRIPT_FILENAME'] . "<br>"; // C:/xampp/htdocs/poorbuk/testDB.php
+//echo "DOCUMENT_ROOT : " . $_SERVER['DOCUMENT_ROOT'] . "<br>"; // C:/xampp/htdocs/poorbuk/testDB.php
+//echo "SERVER_NAME : " . $_SERVER['SERVER_NAME'] . "<br>"; // C:/xampp/htdocs/poorbuk/testDB.php
+//echo "_SERVER['SERVER_PROTOCOL']". $_SERVER['SERVER_PROTOCOL'] . "<br>"; // C:/xampp/htdocs/poorbuk/testDB.php
+
+
+    //$myNewPathNow = $_SERVER['DOCUMENT_ROOT'].dirname($_SERVER['PHP_SELF']);
+    //include($myNewPathNow.'/php/phpopendb/myDBini.php');
 /**********MAKING ALL PATHS (ABSOLUTE AND RELATIVES*********************************************************/
 
 /**********ABSOLUTE PATHS*********************************************************/
 
 
 /**********MAKE ROOT PATH START********************/
-/*26-11-2019 JARIM
+//26-11-2019 JARIM
 $poorbuk_Path_Absolute_Root = realpath(dirname(__FILE__));
 
 //REPLACE SLASHES
@@ -13,10 +89,6 @@ $stringToBeReplaced = array("\\");
 $stringToInsert= "/";
 $myStringJar = $poorbuk_Path_Absolute_Root;
 $poorbuk_Path_Absolute_Root =  str_replace($stringToBeReplaced, $stringToInsert, $myStringJar);
-echo "<br><br> poorbuk_Path_Absolute_Root = $poorbuk_Path_Absolute_Root";
- * 
- END /*26-11-2019 JARIM */
-$poorbuk_Path_Absolute_Root = "C:/xampp/htdocs/poorbuk";
 
 /*MAKE ABSOLUTE PATH MODULES*/
 //CUT UNNECESSARY PATH FROM THE END
@@ -75,55 +147,46 @@ if (!(defined('POORBUK_PATH_ABSOLUTE_USERS')))
 
 /*MAKE RELATIVE ROOT PATH*/
 //CUT UNNECESSARY PATH FROM THE BEGINNING
-/*26-11-2019 JARIM
 $stringToInsert = "";
 $stringToBeReplaced= $_SERVER['DOCUMENT_ROOT'];
 $myStringJar = POORBUK_PATH_ABSOLUTE_ROOT;
 $poorbuk_Path_Relative_Root =  str_replace($stringToBeReplaced, $stringToInsert, $myStringJar);
-END /*26-11-2019 JARIM */
-    
-    
-$poorbuk_Path_Relative_Root ="/poorbuk";
-
-
 if (!(defined('POORBUK_PATH_RELATIVE_ROOT'))) 
 {
     //define("POORBUK_PATH_RELATIVE_ROOT","localhost/poorbuk/");
     //JARIM 2019
     //define("POORBUK_PATH_RELATIVE_ROOT",$poorbuk_Path_Relative_Root);
-    define("POORBUK_PATH_RELATIVE_ROOT","poorbuk");
+    define("POORBUK_PATH_RELATIVE_ROOT","localhost/poorbuk");
 } 
 /**********MAKE ROOT PATH END********************/
 
 
 /*MAKE PATH TO MODULES*/
-$poorbuk_Path_Relative_Modules = $poorbuk_Path_Relative_Root."poorbuk/application/modules";
+$poorbuk_Path_Relative_Modules = $poorbuk_Path_Relative_Root."/application/modules";
 if (!(defined('POORBUK_PATH_RELATIVE_PHP'))) 
 {
     //JARIM 2019
     //define("POORBUK_PATH_RELATIVE_MODULES",$poorbuk_Path_Relative_Modules);
-    define("POORBUK_PATH_RELATIVE_MODULES","poorbuk/application/modules");
+    define("POORBUK_PATH_RELATIVE_MODULES","localhost/poorbuk/application/modules");
 }
 
 
 /*MAKE PATH TO PHP - FOR OUTSIDE PAGES*/
-$poorbuk_Path_Relative_php = $poorbuk_Path_Relative_Root."poorbuk/php";
+$poorbuk_Path_Relative_php = $poorbuk_Path_Relative_Root."/php";
 if (!(defined('POORBUK_PATH_RELATIVE_PHP'))) 
 {
     //JARIM 2019
     //define("POORBUK_PATH_RELATIVE_PHP",$poorbuk_Path_Relative_php);
-    define("POORBUK_PATH_RELATIVE_PHP","poorbuk/php");
+    define("POORBUK_PATH_RELATIVE_PHP","localhost/poorbuk/php");
 } 
 
 /**********END RELATIVE PATHS*********************************************************/
 
 
  /**********ABSOLUTE PATHS2 + HOST WWW*********************************************************/   
-/*/*26-11-2019 JARIM
+    
  $myProtocolAndServer = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://'.$_SERVER['HTTP_HOST'] : 'http://'.$_SERVER['HTTP_HOST'];
- END /*26-11-2019 JARIM */
-$myProtocolAndServer = "http://";
-        
+ 
 if (!(defined('POORBUK_PATH_WWW_ABSOLUTE_ROOT'))) 
 {
     define("POORBUK_PATH_WWW_ABSOLUTE_ROOT",$myProtocolAndServer.POORBUK_PATH_RELATIVE_ROOT);
