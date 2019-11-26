@@ -81,7 +81,8 @@ echo '</table>' ;
 
 
 /**********MAKE ROOT PATH START********************/
-$poorbuk_Path_Absolute_Root = realpath(dirname(__FILE__));
+//26-11-2019 JARIM
+//$poorbuk_Path_Absolute_Root = realpath(dirname(__FILE__));
 
 //REPLACE SLASHES
 $stringToBeReplaced = array("\\");
