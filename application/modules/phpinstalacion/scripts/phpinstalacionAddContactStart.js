@@ -1,0 +1,1 @@
+$(document).ready(function (){	var instaid= localStorage["poorbook.instaid"];	var userid=localStorage["poorbook.myuserid"];	$("#myuserid").val(userid);	$("#instaid").val(instaid);});

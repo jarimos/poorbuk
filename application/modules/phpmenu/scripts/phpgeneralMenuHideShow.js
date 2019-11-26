@@ -1,0 +1,1 @@
+$( "body" ).on( "click", "#menuMostrarMenu", function(){	$('#divMenuMostrarMenu').css('display','none');	$('.menuRellenoBackground').css('display','block');});//END ONCLICK$( "body" ).on( "click", "#menuOcultarMenu", function(){	$('#divMenuMostrarMenu').css('display','block');	$('.menuRellenoBackground').css('display','none');});//END ONCLICK

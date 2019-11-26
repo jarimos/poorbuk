@@ -1,0 +1,1 @@
+$( "body" ).on( "click", "#buttonChangePassword", function(){	$('.trPassword').css("display","block");	$(this).css("display","none");});//END ONCLICK

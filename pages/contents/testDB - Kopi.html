@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+<head>
+  <!--NO cahing!!!!!!!!!!-->
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+<!--END NO cahing!!!!!!!!!!-->
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+ 
+  <!--<META http-equiv="Content-Type" content="text/html; charset=UTF-8">-->
+<LINK REL="SHORTCUT ICON" href="/files/icononavegador/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>poorbuk</title>
+  <meta name="keywords" content="social network, share, social club,poorbuk" >
+  <meta name="description" content="/poorbuk: is a program for sharing all (pictures, files, texts) with your friends. Its totally free. The concept is help others having fun, and all the profit (100%) will be used to help children in needs." >
+  <meta name="robots" content="index, follow">
+ <!-- <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+  <META HTTP-EQUIV="EXPIRES" CONTENT="0">
+  <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+  <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=ISO-8859-1">-->
+  <!--<meta name="revisit-after" content="3 days">-->
+	<meta name="author" content="jarimos">
+<!--<meta http-equiv="refresh" content="6000">-->
+<link rel="image_src" href="screenshot/screenshot.jpg">
+<!--GOOGLE-->
+<link rel="author" href="https://plus.google.com/u/0/116674073346843091532">
+<link rel="publisher" href="https://plus.google.com/u/0/116674073346843091532">
+<!--FACEBOOK-->
+<meta property="og:title" content="/poorbuk">
+<meta property="og:type" content="websider">
+<!--Be sure to specify a square image to ensure the best visibility in a user’s timeline.-->
+<meta property="og:image" content="http://www.poorbuk.com/files/images/Logo250175BLACKlille.png">
+<meta property="og:url" content="http://www.poorbuk.com/">
+<meta property="og:description" content="/poorbuk: is a program for sharing all (pictures, files, texts) with your friends. Its totally free. The concept is help others having fun, and all the profit (100%) will be used to help children in needs.">
+<meta property="fb:admins" content="jarim.fernandez">
+
+  <!--STANDADRD CSS FOR MENUS-->
+  <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="/css/templatemo_style_fix_menu.css" rel="stylesheet" type="text/css">
+  <link href="/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+  <link href="/css/templatemo_style.css" rel="stylesheet" type="text/css">
+ <!--<link rel="stylesheet" media="screen and (min-width:1000px) and (max-height:400px)" href="/css/xtrasmall.css" >-->
+
+  <!--END STANDADRD CSS FOR MENUS-->
+  <!--DIASHOW CSS--> 
+		<link rel="stylesheet" href="/css/xtrasmall.css" >
+		<link rel="stylesheet" type="text/css" href="/css/jarim.css">
+  <!--END DIASHOW CSS-->
+   <!-- <script src="http://code.jquery.com/jquery-latest.js"></script>-->
+         <script src="/poorbuk/js/jquery-1.10.1.js"></script>
+</head>
+
+
+<body >
+
+
+   <script type="text/javascript">
+        $(document).ready(function(){
+
+            //Check if the current URL contains '#' 
+            if(document.URL.indexOf("#")==-1)
+            {
+
+                // Set the URL to whatever it was plus "#".
+                url = document.URL+"#";
+                location = "#";
+
+                //Reload the page
+                location.reload(true);
+				
+            }
+        });
+    </script> 
+	
+	
+	
+
+<!--<div class="headerWrapperJarim">-->
+  <header>
+    <div id="headerJarim" class="navbar navbar-inverse "><!--navbar-fixed-top-->
+      <div class="navbar-inner" style="padding-top:20px;padding-left:14px;">
+        <div class="container">
+          <button style="position:absolute;right:10px;top:4px;" type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="" href="index.html"><img style="position:absolute;left:8px;top:14px;"src="/poorbuk/files/images/logo4242.png"><p class="brand" style="margin-left:40px;" >POORBUK</p></a>
+     <!--     <a class="showFront" href="#"><img style="postion:absolute;margin-left:10px;margin-right:8px;margin-top:4px;"src="logo4242.png"><p class="brand" >jarimos</p></a>-->
+
+		 <nav class="nav-collapse collapse">
+            <ul class="nav pull-right">
+			  <li class="menujarim5"><a class="" href="inicio.html">INICIO</a></li>   <!--<li class="menujarim5"><a class="" href="app.html">APP</a></li>-->
+              <li class="menujarim1"><a class="" href="registrarse.html">NUEVO USUARIO</a></li>
+              <li class="menujarim0 active"><a class="" href="index.html">INICIAR SESION</a></li>
+              <li class="menujarim3"><a class="" href="acercade.html">ACERCA DE</a></li>
+              <li class="menujarim4"><a class="" href="contact.html">CONTACTO</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+<!--</div>-->
+  <div class="headerWrapperJarim">
+  </div>
+<!--**************FRONT *******************************************-->
+<div  id="divallMessagePopupWrongPass">Los datos introducidos son incorrectos</div>
+
+
+<div class="content front" style=""> 
+<div     class="allContentWrapper" style="">
+
+
+<!--
+	<form   id="uploadform" action="testDB.php" method="post" enctype="multipart/form-data" target="uploadframe" ><!--onsubmit="uploadimg(this);"-->
+		
+		
+
+<!--				<input  maxlength="50" style="width:150px;" type="text" id="mail" name="mail" placeholder="mail"  >
+				<input maxlength="30" style="width:150px;" type="password" id="pass" name="pass"  placeholder="pass"    >
+				<input  maxlength="50" style="width:150px;" type="text" id="userid" name="userid" placeholder="userid"  >
+				<input maxlength="30" style="width:150px;" type="password" id="other"   name="other"  placeholder="other" >
+
+
+				<button  class="login" id="buttonlogin">Enviar</button>
+				</br></br>
+		<iframe id="uploadframe" name="uploadframe" src="testdb.php" style ="border:solid 2px grey;" width="1110" height="1100"  ></iframe>	
+
+	
+	</form>
+-->
+<form id="myForm" name="myForm" target="uploadframe3" enctype="multipart/form-data"  action="" method="POST"  onsubmit="return(validateEditProfile());"> <!---->
+
+<table class="tableCheckBox">
+
+
+<tr>
+	<td>
+		<div class="labelEventTitel">Event titel</div>
+		<input type="text" id="myusername" name="myusername"  />
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<br>
+		<p class="labelEventDate">Event date</p>
+
+		<div id="profilePrintDateSelectInput"></div>
+		
+		
+		
+	</td>
+</tr>
+<tr>
+	<td>
+		<br>
+		<div class="labelHours" style="display:inline;margin-left:4px;margin-right:50px;">Hour</div>		<p class="labelMinut"  style="display:inline;width:80px;" >Minut</p>
+<br>
+
+		<select name="selectHours" style="display:inline;width:80px;">
+		<option value="01">01</option>
+		<option value="02">02</option>
+		<option value="03">03</option>
+		<option value="04">04</option>
+		<option value="05">05</option>
+		<option value="06">06</option>
+		<option value="07">07</option>
+		<option value="08">08</option>
+		<option value="09">09</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		</select>
+		
+
+		
+		<select name="selectMinut" style="display:inline;width:80px;">
+		<option value="01">01</option>
+		<option value="02">02</option>
+		<option value="03">03</option>
+		<option value="04">04</option>
+		<option value="05">05</option>
+		<option value="06">06</option>
+		<option value="07">07</option>
+		<option value="08">08</option>
+		<option value="09">09</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+		<option value="51">51</option>
+		<option value="52">52</option>
+		<option value="53">53</option>
+		<option value="54">54</option>
+		<option value="55">55</option>
+		<option value="56">56</option>
+		<option value="57">57</option>
+		<option value="58">58</option>
+		<option value="59">59</option>
+		<option value="60">60</option>
+
+		</select>	
+		
+		
+	</td>
+</tr>
+
+<tr>
+	<td>
+		<div class="labelEventFor">Event for</div>
+		<select name="selectEventFor" >
+			<option value="Me and my friends">Me and my friends</option>
+			<option value="Only me">Only me</option>
+			<option value="Everybody">Everybody (Only admins allowed)</option>
+		</select>
+
+	</td>
+</tr>
+
+
+<tr>
+	<td>
+		<p class=" labelEventPicture">Event picture</p>
+		<input type="file"  id="myfile" name="myfile">
+		<br>
+	</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+<tr>
+	<td>
+		<br>
+		<p class="labelEventDescription">Event description</p>
+		<textarea id="textAreaDescription" name="textAreaDescription" rows="4" cols="40">
+		</textarea>
+	</td>
+</tr>
+
+<tr>
+	<td>
+		
+		<input id="buttonProfileEdit" class="myButtonAll" type="submit" value="Save changes">
+		<br><br>
+		<a class="myButtonAll" id="buttonHome"  href="profile.php">Home</a>
+	</td>
+</tr>
+
+
+
+
+</table>
+
+</form>		
+		
+		<div class="jarimFooterRellenoInvisible" style="height:100px;">
+		</div>
+
+</div>
+
+</div>
+
+
+  
+
+  <footer class="jarimFooter">
+      <div class="credit">
+        <p id="templatemo_cr_bar">
+          Webmaster <a class="showContact" href="contact.html">poorbook-team | 2014</a>
+        </p>
+      </div>
+   
+  </footer>
+
+			<script type="text/javascript" src="/poorbuk/application/modules/phpprofileyo/scripts/profileEditStart.js"></script>		
+			<script type="text/javascript" src="/poorbuk/application/modules/phpprofileyo/scripts/profileEditCheckDateIsRight.js"></script>
+
+
+	<!--SET THIS SCRIPT THE LAST BECAUSE WE DONT KJNOW IF THEY ARE IDIOTS OR WHAT BUT NO SCRIPT AFTER SEEMS TO WORK-->
+	<script src="/poorbuk/js/bootstrap/bootstrap.min.js"></script>
+  </body>
+  
+  
+</html>

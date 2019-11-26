@@ -1,0 +1,1 @@
+function deleteLinks(fileLinksTableId){		//alert(myuserid+"\n"+tutorialsfolder);		$.post("application/modules/phplinks/buttonLinkDelete.php",	{		fileLinksTableId:fileLinksTableId	},	//post back function	function (data, status)	{		//alert('data deleteLinksFunction.js = '+data);					//$("#frameUploadTutorial").html(data);	});}

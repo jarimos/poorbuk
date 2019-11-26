@@ -1,0 +1,1 @@
+$( "body" ).on( "click", ".buttonSeeConversation", function(){	var friendids = $(this).val();	//alert(friendids);	//SET CONVERSATION IDS	localStorage["poorbook.conversationids"]=friendids;	//SET FLAG FROM FRONTPAGE	localStorage["poorbook.conversationfrontpage"]='yes';		//GO TO mensajes.php	window.location.replace("mensajesconversacion.php");	 });	

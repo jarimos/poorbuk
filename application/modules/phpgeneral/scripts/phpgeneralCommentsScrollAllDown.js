@@ -1,0 +1,1 @@
+//SCROLL ALL COMMENTS DOWNfunction phpgeneralCommentsScrollAllDown(){		$('.divAllComments').each(function(i, obj) 		{			var scrollCommentHeight = $(this)[0].scrollHeight;			//alert(scrollCommentHeight);			$(this).scrollTop(scrollCommentHeight);		});		}

@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<!--	<link rel="stylesheet" type="text/css" href="/css/jarim.css"/>
+	<link rel="stylesheet" href="/css/xtrasmall.css" >-->
+    <script src="/poorbuk/js/jquery-1.10.1.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+<div  id="DivtextEditorJarimPRE" contenteditable="true">
+<pre  id="textEditorJarimPRE"  contenteditable="true">
+<a id="buttonLogOut" href="#">HOLA RADIOLA
+hola2
+<img src="/poorbuk/files/icons/salir4242.png">
+</a>
+</pre></div>
+
+<div id="textEditorJarimTESTOutput" contenteditable="true"></div>
+
+
+<div id="textEditorJarimOutputPRE" contenteditable="false">
+<pre id="textEditorJarimOutputPRETAG" contenteditable="true"  ></pre>
+</div>
+
+<button  id="send" >Send</button>
+				</br></br>
+	
+
+<!--	<iframe id="uploadframe" name="uploadframe" src="testTextEditor.php" style ="display:none;border:solid 2px grey;" width="1110" height="1100"  ></iframe>	
+
+-->
+
+
+
+
+
+
+
+
+
+
+<script>
+
+$( "body" ).on( "click", "#send", function()
+{
+
+var textEditorJarimTEST = $("#DivtextEditorJarimPRE").html();
+		//textEditorJarimTEST = textEditorJarimTEST.replace(/\n/g, "<br>");
+		//textEditorJarimTEST = textEditorJarimTEST.replace(/\n/g, "\r\n");
+		//textEditorJarimTEST = textEditorJarimTEST.replace(/\n/g, "\\r\\n");
+		//textEditorJarimTEST = textEditorJarimTEST.replace(/\s/g, "jarim");
+
+
+	$.post("/poorbuk/testTextEditor.php",
+	{
+
+			textEditorJarimTEST:textEditorJarimTEST
+ 
+		
+	},
+	
+
+	//post back function
+	function (data, status)
+	{
+		//alert('data testDB.html'+ "\n Data = "+data);		
+			
+		$("#textEditorJarimTESTOutput").html(data);
+
+
+		//data = textEditorJarimTEST.replace(/\<br\>/gi, "\r\n");//
+		textEditorHTMLContent = document.createTextNode(data);
+		//textEditorHTMLContent = $("#textEditorJarimTESTOutput").text();
+		//$("#textEditorJarimOutputPRE").append(textEditorHTMLContent); 
+		$("#textEditorJarimOutputPRETAG").append(textEditorHTMLContent); 	
+	
+	
+	});
+
+
+});//END ONCLICK
+
+
+		
+/*
+CONFIG 5 WORKSSSSS!!!!!!!!!!!!!!!!!!!!
+
+var textEditorJarimTEST = $("#textEditorJarimPRE").html();
+$("#textEditorJarimTESTOutput").html(textEditorJarimTEST);
+textEditorHTMLContent = document.createTextNode(textEditorJarimTEST);
+$("#textEditorJarimOutputPRETAG").append(textEditorHTMLContent); 
+
+
+
+
+CONFIG 1
+
+<div id="textEditorJarimOutputPRE" contenteditable="false">
+<pre id="textEditorJarimOutputPRETAG" contenteditable="true" ></pre>
+</div>
+1.
+textEditorHTMLContent = document.createTextNode(textEditorJarimTEST);
+$("#textEditorJarimOutputPRE").append(textEditorHTMLContent); 
+2.
+textEditorJarimTEST = textEditorJarimTEST.replace(/\n/g, "\r\n");
+3.
+textEditorJarimTEST = textEditorJarimTEST.replace(/\n/g, "<br>");
+
+
+CONFIG 2
+
+<div id="textEditorJarimOutputPRE" contenteditable="false">
+<pre id="textEditorJarimOutputPRETAG" contenteditable="false" ></pre>
+</div>
+
+
+1.
+textEditorHTMLContent = document.createTextNode(textEditorJarimTEST);
+$("#textEditorJarimOutputPRE").append(textEditorHTMLContent); 
+2.
+textEditorJarimTEST = textEditorJarimTEST.replace(/\n/g, "\r\n");
+3.
+textEditorJarimTEST = textEditorJarimTEST.replace(/\n/g, "<br>");
+
+
+
+THIS DOESN'T WORK
+
+BECAUSE textEditorHTMLContent IS AN OBJECT WE CAN'T USE REPLACE
+var textEditorHTMLContent = document.createTextNode(textEditorJarimTEST);
+textEditorHTMLContent = textEditorHTMLContent.replace(/jarim/g, "lort");
+
+CONFIG 3
+
+DOESN'T WORKS : ONLY CATCH TEXT, NOT HTML TAGS
+var textEditorJarimTEST = $("#textEditorJarimTEST").text();
+
+
+CONFIG 4
+
+DOESN'T WORK ALL HTML
+var textEditorJarimTEST = $("#textEditorJarimTEST").html();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+</script>
+
+
+</body>
+
+  
+  
+</html>

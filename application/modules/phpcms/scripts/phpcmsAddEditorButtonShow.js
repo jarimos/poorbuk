@@ -1,0 +1,1 @@
+$( "body" ).on( "click", "#buttonAddEditorToWebsite", function(){	$('#overlayButtonAddEditorToWebsite').css('display','block');	});//END ONCLICK

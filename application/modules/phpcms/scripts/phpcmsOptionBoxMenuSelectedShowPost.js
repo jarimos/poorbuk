@@ -1,0 +1,1 @@
+//SHOW POST FOR THE SELECTED MENU - ALL MENUS = THE LAST OPTION BOX IN MENUSfunction phpcmsOptionBoxMenuSelectedShowPost() {	var pId	 =	$('select[name="mAllmenus"]').val();		//alert(pId);		if (pId != -1)	{		phpcmsShowPostById(pId);		}}

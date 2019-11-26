@@ -1,0 +1,17 @@
+#UTILIZAR $_SERVER['SCRIPT_FILENAME'] IN PHP PARA ENCONTRAR LA PATH CORRECTA: C:/xampp/htdocs/poorbuk/servervariables.php
+#LA PATH  $_SERVER['HTTP_REFERER'] IN PHP NO ME FUNCIONA  AuthUserFile http://localhost/poorbuk/jarim/.htpasswd
+
+#Satisfy Any : allow without prompt the ips on allow...if no ip in allow, prompt for password 
+
+#The password works apparently coded online (a lot of httpasswd generators online) 
+#and uncoded in local server: MANY HTTPASSWD CODED-PASS GENERATORS ONLINE
+
+#AuthName "Este área está restringida a usuarios registrados. Identifícate"
+#AuthUserFile C:/xampp/htdocs/poorbuk/jarim/.htpasswd
+#AuthType Basic
+#require valid-user
+order deny,allow
+deny from all
+allow from 213.140.75.169 ::1
+#Satisfy Any
+

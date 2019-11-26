@@ -1,0 +1,1 @@
+function phpadminInitializeRoll(){			//var userRoll = $(".divUserrollId").attr('id');			var userRoll = localStorage["poorbook.userroll"];				//alert(userRoll);			$('select[name="selectUserRoll"]').val(userRoll);	}

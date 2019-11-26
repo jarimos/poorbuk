@@ -1,0 +1,1 @@
+$( "body" ).on( "click", "#buttonShowGarbage", function(){	var myCSSDisplay= $('#showPostsGarbageAllHTML').css('display');	//alert(myCSSDisplay);	   if (myCSSDisplay == 'none') {		$("#showPostsGarbageAllHTML").css('display','block');    } else {		$("#showPostsGarbageAllHTML").css('display','none');    }});//END ONCLICK

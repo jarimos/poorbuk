@@ -1,0 +1,1 @@
+$( "body" ).on( "click", "#buttonDeleteFiles", function(){	$( "#mydivNow" ).html('');	$('#buttonDeleteFiles').css('visibility','hidden');});//END ONCLICK

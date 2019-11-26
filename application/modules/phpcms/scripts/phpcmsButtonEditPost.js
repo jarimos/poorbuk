@@ -1,0 +1,1 @@
+$( "body" ).on( "click", ".buttonEditPost", function(){		 if ($('#switchBox').is(':checked'))		 {			$('#switchBox').prop('checked', false);			textEditorShowPlainHtml(false);		 }		 		 	var pId =$(this).val();		//NOTE:phpcmsShowPostById(pId)  CALL phpcmsButtonEditPost.php  AND phpcmsButtonEditPostGetHtml	-->	phpcmsShowPostById(pId);});//END ONCLICK

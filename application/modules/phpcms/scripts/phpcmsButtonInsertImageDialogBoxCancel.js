@@ -1,0 +1,1 @@
+$( "body" ).on( "click", "#insertImageDialogBoxCancel", function(){	$('#imageUrl').val("");	$('#imageText').val("");	$('#imageAlt').val("");	$('#imageWidth').val("");	$('#imageHeight').val("");	//var imageSrc = $(this).children("img").attr('src');	//$("#overlayImage").attr('src',imageSrc);	$('#overlayInsertHTMLImage').css('display','none');	});//END ONCLICK

@@ -1,0 +1,9 @@
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /plugintest01/wp-content/plugins/poorbuk/includes/poorbuk/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) /plugintest01/wp-content/plugins/poorbuk/includes/poorbuk/index.php
+</IfModule>

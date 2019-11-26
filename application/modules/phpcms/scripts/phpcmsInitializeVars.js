@@ -1,0 +1,1 @@
+	//INITIALIZE VARIABLE FOR FULL EDIT TIME TO FALSE-STRING(LOCAL STTORAGE STORE STRING)localStorage["poorbook.editingfulltime"]="false";		var myLocalStorageFullEdit3= localStorage["poorbook.editingfulltime"];		//alert("myLocalStorageFullEdit3"+myLocalStorageFullEdit3)

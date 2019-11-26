@@ -1,0 +1,24 @@
+#allowOverride All
+RewriteEngine On
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+RewriteRule . /poorbuk/index.html
+
+
+
+#PROTECT FROM LOOKING AT JS CSS PHP FILES
+#- [S=2] MEANS THAT HOPE OVER THE 2 NEXT RULES IF FILES ARE NOT js php or css
+RewriteRule !\.(php|js|css)$ - [S=2]
+RewriteCond %{HTTP_REFERER} !^http://www.poorbuk.com/poorbuk/.* [NC]
+RewriteRule .* - [F]
+
+## PROTECT FILES
+<FilesMatch "\.(htaccess)$">
+  Order deny,allow
+  deny from all
+  #allow from ^(.*)jarim.html$
+</FilesMatch>
+
+order deny,allow
+deny from all
+allow from

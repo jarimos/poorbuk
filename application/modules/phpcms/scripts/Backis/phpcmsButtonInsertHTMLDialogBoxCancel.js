@@ -1,0 +1,1 @@
+$( "body" ).on( "click", "#insertHTMLDialogBoxCancel", function(){	$("#textAreaInsertHTML").val("");	$('#overlayInsertHTML').css('display','none');	});//END ONCLICK

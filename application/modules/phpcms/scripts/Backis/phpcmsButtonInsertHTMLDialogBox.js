@@ -1,0 +1,1 @@
+$( "body" ).on( "click", "#insertHTMLDialogBox", function(){	var textAreaInsertHTML  = 	$("#textAreaInsertHTML").val();	formatDoc('insertHTML',textAreaInsertHTML);	$("#textAreaInsertHTML").val("");	$('#overlayInsertHTML').css('display','none');	});//END ONCLICK

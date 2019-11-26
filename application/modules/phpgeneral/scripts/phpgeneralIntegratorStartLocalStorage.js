@@ -1,0 +1,1 @@
+localStorage["poorbook.myuserlanguage"]="Spanish"; localStorage["poorbook.myuserid"] = 1;

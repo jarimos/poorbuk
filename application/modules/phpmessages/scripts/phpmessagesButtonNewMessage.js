@@ -1,0 +1,1 @@
+$( "body" ).on( "click", "#buttonNewMessage", function(){			localStorage["poorbook.conversationids"]="";			$('#divUsersListToSendToMesssages').html("");			$('#divUserFinderAll').css('display','block');			$('#divConversationAll').css('display','none');			$('#divUsersListAll').css('display','none'); });	

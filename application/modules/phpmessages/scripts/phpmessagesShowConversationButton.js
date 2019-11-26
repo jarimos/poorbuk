@@ -1,0 +1,1 @@
+$( "body" ).on( "click", ".buttonSeeConversation", function(){	var friendids = $(this).val();	//alert(friendids);	localStorage["poorbook.conversationids"]=friendids;	window.location.assign("mensajesconversacion.php");			/*$('#divUserFinderAll').css('display','none');	$('#divConversationAll').css('display','block');	phpmessagesShowConversation(friendids);*/ });	

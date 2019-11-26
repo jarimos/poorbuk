@@ -1,0 +1,1 @@
+$( "body" ).on( "click", ".buttonSeeMorePosts", function(){	var mytime=$(this).val();	alert(mytime);	phpgeneralReloadPostsByScrollAutoShowPosts(mytime);});//END ONCLICK

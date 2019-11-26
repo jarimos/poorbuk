@@ -1,0 +1,1633 @@
+
+
+.jarimFooterRellenoInvisibleContact{height:100px;visibility:hidden;}
+
+
+.arrow_box {
+	position: relative;
+	background: #88b7d5;
+	border: 4px solid #c2e1f5;
+}
+.arrow_box:after, .arrow_box:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #88b7d5;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: #c2e1f5;
+	border-width: 36px;
+	margin-top: -36px;
+}
+.labelPhothosDocs {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  
+  	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #555;
+	border-bottom: 25px solid transparent;
+ /* background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;*/
+}
+    
+.buttonsGreensCss3 {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonsGreensCss3:hover {background-color: #3e8e41}
+
+.buttonsGreensCss3:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#testinglortlort
+{
+	background-color:white;
+	border:solid 2px red;
+	height:500px;
+	width:500px;
+	position:absolute;
+	top:100px; 
+	left:100px;
+}
+
+
+#showPostsGarbageAllHTML
+{
+	display:block;
+}
+
+.postsShowAllCMS
+{
+	overflow-x: hidden;
+	overflow-y:auto;
+	height:200px;
+	width:310px;
+	float:left;
+	margin:10px;
+	margin-top:30px;
+	border:solid 2px grey;
+
+}
+
+
+
+/********TEXT-EDITOR***********border:solid 2px red;********/
+
+.textEditorOptionsJarim
+{
+		float:left;
+		/*border:solid 2px grey;*/
+		margin-left:40px;
+}
+
+#textEditorWrapperAllJarim
+{
+		float:left;
+		clear:both;
+		width:95%;
+		margin-left:20px;
+
+}
+		.textEditorIcons { cursor: pointer; }
+		img.textEditorIcons { border: 0; }
+		#textEditorToolbar1 select { font-size:10px; }
+		
+		
+#textEditorJarim 
+{
+		  width: 95%;
+		  height: auto;
+		  min-height: 200px;
+		  border: 1px #000000 solid;
+		  margin: 12px;
+		  overflow: auto;
+
+}
+#jarimTextId
+ {
+		
+    font-family: monospace;
+    /*white-space: pre;*/
+    margin: 10px;
+	min-height:200px;
+	width:95%;
+	/*background-color:yellow;*/
+	border:solid 2px blue;
+	  overflow-y: auto;
+	  word-wrap:break-word; 
+	  word-break:break-all;
+	/*  white-space:pre-line;*/
+
+}
+pre {
+
+
+   white-space: pre-wrap;       /* CSS 3 */
+   white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+   white-space: -pre-wrap;      /* Opera 4-6 */
+   white-space: -o-pre-wrap;    /* Opera 7 */
+   word-wrap: break-word;       /* Internet Explorer 5.5+ */
+
+
+}
+
+		#labelShowHTML label { cursor: pointer; }
+.buttonTextEditor
+{
+	background-color:silver;
+	cursor:pointer;
+	padding:4px;  
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	font-size:14px;
+	border:solid 2px black;
+	width:78px;
+	text-align:center;
+	font-weight:bold;
+	float:left;
+	margin-right:10px;
+
+}
+.buttonTextEditor:hover { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.buttonTextEditor:active { 
+    outline: solid 2px green;
+    color: blue;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+/******ADD EDITOR TO WEBSITE  OVERLAY******/
+
+#dialogButtonAddEditorToWebsite
+{
+
+	position:absolute;
+	top:10%;
+	left:20%;
+	right:20%;
+	z-index:9000;
+	padding:8px;
+	background-color:black;
+	font:italic 20px Georgia,serif;
+	color:white;
+
+}
+
+#overlayButtonAddEditorToWebsite
+{
+	display:none;
+	width:100%;
+	height:100%;
+	background:#000;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:1;
+	z-index:1000;
+
+}
+
+
+/******END INSERT HTML OVERLAY******/
+
+/******INSERT HTML OVERLAY******/
+
+#dialogInsertHTML
+{
+
+	position:absolute;
+	top:10%;
+	left:20%;
+	right:20%;
+	z-index:9000;
+	padding:8px;
+	background-color:black;
+	font:italic 20px Georgia,serif;
+	color:white;
+
+}
+
+#overlayInsertHTML
+{
+	display:none;
+	width:100%;
+	height:100%;
+	background:#000;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:1;
+	z-index:1000;
+
+}
+
+
+/******END INSERT HTML OVERLAY******/
+
+/******INSERT HTML_Image OVERLAY******/
+
+#dialogInsertHTMLImage
+{
+
+	position:absolute;
+	top:10%;
+	left:20%;
+	right:20%;
+	z-index:9000;
+	padding:8px;
+	background-color:black;
+	font:italic 20px Georgia,serif;
+	color:white;
+
+}
+
+#overlayInsertHTMLImage
+{
+	display:none;
+	width:100%;
+	height:100%;
+	background:#000;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:1;
+	z-index:1000;
+
+}
+
+
+/******END INSERT HTML_Image OVERLAY******/
+
+/********END TEXT-EDITOR*******************/
+
+/******MESSAGES OVERLAY******/
+
+#divAllMessagesWrapper
+{
+	position:relative;
+	width:230px;	
+	top:10%;
+	left:20%;
+	right:20%;
+	overflow:visible;
+	z-index:9998;
+	background-color:black;
+	border-top:solid 2px grey;
+}
+
+#divAllMessages
+{
+
+	position:absolute;
+	top:40px;
+	z-index:9998;
+	font:italic 16px Georgia,serif;
+	padding-right:15px;
+	background-color:black;
+	font:italic 20px Georgia,serif;
+	color:white;
+
+}
+
+#overlayMessages
+{
+	display:none;
+	width:100%;
+	height:100%;
+	background:#000;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:1;
+	z-index:1000;
+
+}
+
+
+/******END MESSAGES OVERLAY******/
+
+
+
+
+
+
+/******STATUS OVERLAY******/
+
+#divLoadingStatus
+{
+	display:none;
+	position:absolute;
+	top:10%;
+	left:20%;
+	right:20%;
+	z-index:9000;
+	padding:8px;
+	background-color:black;
+	font:italic 20px Georgia,serif;
+	color:white;
+
+}
+
+#overlayStatus
+{
+	display:none;
+	width:100%;
+	height:100%;
+	background:#000;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:1;
+	z-index:1000;
+
+}
+
+
+/******EN STATUS OVERLAY******/
+
+/******GALLERY OVERLAY******/
+#overlay
+{
+	display:none;
+	width:100%;
+	height:100%;
+	background:#000;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:1;
+	z-index:1000;
+
+}
+
+.div_image
+{
+	width:200px;
+	height:150px;
+	border:solid 20px silver;
+	float:left;margin:10px;
+	margin-top:0px;
+	background-color:black;
+	text-align:center;
+}
+
+.tumbnailImage
+{
+	max-width:200px;
+	max-height:150px;
+	margin:auto;
+}
+
+#overlay_div
+{
+	width:600px;
+	height:450px;
+	margin: 0 auto;
+	position:absolute;
+	top:10%;
+	left:20%;
+	right:20%;
+	z-index:1500;
+	box-shadow:0 0 50px #000;
+	-o-box-shadow:0 0 50px #000;
+	-webkit-box-shadow:0 0 50px #000;
+	-ms-box-shadow:0 0 50px #000;
+}
+
+.close_button
+{
+	z-index:9999;
+	cursor:pointer;
+	width:30px;
+	line-height:30px;
+	background:#000;
+	color:#fff;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	border:solid 1px white;
+}
+
+
+
+/******END GALLERY OVERLAY******/
+/**********/
+
+
+
+.tableLinks
+{
+	background-color:#E0E0E0;
+	border-radius:6px;
+	border:2px solid silver;
+	border-bottom:8px solid silver;
+ }
+ 
+input.hidefileinput
+{
+	position:absolute;
+	left:-10px;
+	top:-4px;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 3;
+
+}
+
+.red
+{
+	background-color:#cc0000;
+	font-weight:bold;
+	color:#ffffff;
+	z-index:1;
+	width:75px;
+	height:20px;
+	font-size:10px;
+
+}
+.green
+{
+	background-color:green;
+	font-weight:bold;
+	color:#ffffff;
+	z-index:1;
+	width:75px;
+	height:30px;
+	font-size:14px;
+	padding:4px;
+}
+
+.divFinderGeneral
+{
+	clear:both;
+	float:left;
+	width:160px;
+	background-color:black;
+	margin:0px;
+	border:solid 2px black;
+}
+
+.invisible{display:none;}
+
+.trPassword{display:none;}
+input.invisible{display:none;}
+input.inputGeneralMaxWidth{width:100%;}
+input.inputGeneral{width:150px;}
+input.inputGeneralSmall{width:150px;}
+input.inputGeneralFinder{width:180px;margin:0px;float:left;clear:both;}
+
+
+input[type="text"],input[type="password"],input[type="file"] 
+{
+	width:200px !important; 
+	line-height: 30px !important;
+	/*height: 30px !important;*/
+        
+	display: inline-block;
+	padding: 4px 6px;
+	vertical-align: middle;
+	color: darkmagenta;
+	font-size: 14px !important;
+	font-weight: normal !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+textArea
+{
+	width:200px !important; 
+	/*line-height: 30px !important;*/
+	min-height: 100px !important;
+	display: inline-block;
+	padding: 4px 6px;
+	vertical-align: middle;
+	color: darkmagenta;
+	font-size: 14px !important;
+	font-weight: normal !important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+.textAreaGeneral{width:100%;}
+textarea
+{
+	width:150px;  
+	height: auto;
+}
+
+input[type="submit"] {}
+
+
+
+select
+ {
+	display: inline-block;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+	width:auto !important;
+	font-size: 14px !important;
+	height: 30px;
+	line-height: 20px;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: darkmagenta;
+	vertical-align: middle;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+/*GENERAL */
+
+
+
+.myPost
+{
+	float:left;
+	clear:both;
+	margin-bottom:20px;
+	padding-top:0px;
+	padding-bottom:40px;
+	padding-left:10px;
+	background-color:PaleGoldenRod;
+	border:solid 2px grey;
+}
+
+
+/*.allContentWrapperpoorbuk{width:400px;margin:0px auto;padding:0px;background-color:blue;border:solid 10px grey;}*/
+/*.allContentWrapperpoorbuk{border:solid 10px grey;}*/
+.tableCheckBox{padding:4px 6px;float:left;clear:both;}
+.divScrollGeneral{/*border:solid 2px white;*/width:340px;height:220px;overflow:auto;}
+
+.invisible{display:none;}
+.myLabelsGeneralInline{display:inline;font:italic 20px Georgia,serif;color:brown;}
+.labelGeneral{font:italic 14px Georgia,serif;color:brown;}
+.labelGeneralBig{font:italic 20px Georgia,serif;color:brown;margin-top:40px;margin-bottom:10px;clear:both;}
+.labelInput{font:italic 14px Georgia,serif;color:grey;}
+.linkGeneral{font:italic 18px Georgia,serif;color:blue;}
+
+
+
+.buttonGeneralGreyStandard
+{
+	/*float:left;*/
+	width:100px;
+	height:70px;
+	font:italic 12px Georgia,serif;
+}
+
+/*HIGHLIGHT BORDER BUTTONS BLUE IN FOCUS*/
+
+button:hover { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+button:active { 
+    /*outline: solid 1px blue;*/
+    color: green;
+    border-color: green;
+    box-shadow: 0;
+}
+
+input[type="button"]:hover { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+
+input[type="button"]:active { 
+    /*outline: solid 1px blue;*/
+    color: green;
+    border-color: green;
+    box-shadow: 0;
+}
+
+
+
+
+
+
+#divallMessagePopupWrongPass,.divMessageAll,#divallMessagePopupPassForgottenSucess,#divallMessagePopupPassForgottenMailNoExist,#divallMessagePopupPassForgotten
+{  
+        text-align:center;
+        display:none;
+        width:200px;  
+        padding:10px;  
+        border:1px solid;  
+        position:fixed;
+        top:10%;  
+        left:40%;  
+        z-index:9999;  
+        -webkit-border-radius: 6px; -moz-border-radius: 6px;
+        font:italic bold 24px Georgia,serif;
+        color:grey;
+        background:white;
+}  
+        
+        
+       
+.buttonGeneralJarim,.myButtonAll {
+  font: bold 9px Arial,sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0.1em 0 rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  padding: 0.4em 2em 0.5em;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  border: 1px solid;
+  border-color: #bbbbbb #a2a2a2 #888888;
+  background-color: #eee;
+  background-image: -moz-linear-gradient(#eeeeee, #d4d4d4);
+  background-image: -webkit-linear-gradient(#eeeeee, #d4d4d4);
+  background-image: linear-gradient(#eeeeee, #d4d4d4);
+  -moz-box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.1), 0 0.1em 0.2em rgba(0, 0, 0, 0.3), 0 -0.1em 0.07em rgba(0, 0, 0, 0.3) inset, 0 0.1em 0.07em rgba(255, 255, 255, 0.2) inset;
+  -webkit-box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.1), 0 0.1em 0.2em rgba(0, 0, 0, 0.3), 0 -0.1em 0.07em rgba(0, 0, 0, 0.3) inset, 0 0.1em 0.07em rgba(255, 255, 255, 0.2) inset;
+  box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.1), 0 0.1em 0.2em rgba(0, 0, 0, 0.3), 0 -0.1em 0.07em rgba(0, 0, 0, 0.3) inset, 0 0.1em 0.07em rgba(255, 255, 255, 0.2) inset;
+  -moz-transition: all 100ms;
+  -o-transition: all 100ms;
+  -webkit-transition: all 100ms;
+  transition: all 100ms;
+}
+.myButtonAll:hover,.buttonGeneralJarim:hover {
+  -moz-box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.4), 0 0.1em 0.2em rgba(0, 0, 0, 0.4), 0 -0.1em 0.07em rgba(0, 0, 0, 0.3) inset, 0 0.1em 0.07em rgba(255, 255, 255, 0.2) inset;
+  -webkit-box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.4), 0 0.1em 0.2em rgba(0, 0, 0, 0.4), 0 -0.1em 0.07em rgba(0, 0, 0, 0.3) inset, 0 0.1em 0.07em rgba(255, 255, 255, 0.2) inset;
+  box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.4), 0 0.1em 0.2em rgba(0, 0, 0, 0.4), 0 -0.1em 0.07em rgba(0, 0, 0, 0.3) inset, 0 0.1em 0.07em rgba(255, 255, 255, 0.2) inset;
+}
+.myButtonAll:active,.buttonGeneralJarim:active {
+  padding: 0.4em 2em 0.4em;
+  margin-top: 0.1em;
+  border-color: #a2a2a2 #bbbbbb #eee;
+  background-image: -moz-linear-gradient(#e1e1e1, #eeeeee);
+  background-image: -webkit-linear-gradient(#e1e1e1, #eeeeee);
+  background-image: linear-gradient(#e1e1e1, #eeeeee);
+  -moz-box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.1) inset, 0 0.1em 0.1em rgba(0, 0, 0, 0.2) inset, 0.05em 0 0.07em rgba(0, 0, 0, 0.2) inset, -0.05em 0 0.07em rgba(0, 0, 0, 0.2) inset;
+  -webkit-box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.1) inset, 0 0.1em 0.1em rgba(0, 0, 0, 0.2) inset, 0.05em 0 0.07em rgba(0, 0, 0, 0.2) inset, -0.05em 0 0.07em rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.1) inset, 0 0.1em 0.1em rgba(0, 0, 0, 0.2) inset, 0.05em 0 0.07em rgba(0, 0, 0, 0.2) inset, -0.05em 0 0.07em rgba(0, 0, 0, 0.2) inset;
+  -moz-transition: all 10ms;
+  -o-transition: all 10ms;
+  -webkit-transition: all 10ms;
+  transition: all 10ms;
+}       
+        
+.myButtonAll, .myButtonsLoveClone 
+  {
+      font: bold 12px Arial,sans-serif !important;
+      font-weight:900;
+      text-decoration: none;
+
+  }       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+/*FOR ALL MY BUTTONS */
+.myButtonAll2
+{	
+	background-color:LightSeaGreen;
+	background: -webkit-linear-gradient(blue, LightSeaGreen, blue); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(blue, LightSeaGreen, blue); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(blue, LightSeaGreen, blue); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(blue, LightSeaGreen, blue); /* Standard syntax */
+	text-align:center;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font:italic bold 18px Georgia,serif;
+	text-decoration:none;
+	padding:4px 6px;
+	width:auto;
+}
+.myButtonAll2:hover  {
+	background-color:purple;
+	background: -webkit-linear-gradient(purple, LightSeaGreen, purple); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(purple, LightSeaGreen, purple); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(purple, LightSeaGreen, purple); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(purple, LightSeaGreen, purple); /* Standard syntax */
+	color:#ffffff;
+	text-decoration:none;
+    /*color: #1a3a9e;*/
+
+	}
+.myButtonAll2:active{
+	background-color:blue;
+	background: -webkit-linear-gradient(LightSeaGreen, purple, LightSeaGreen); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(LightSeaGreen, purple, LightSeaGreen); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(LightSeaGreen, purple, LightSeaGreen); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(LightSeaGreen, purple, LightSeaGreen); /* Standard syntax */
+	color:#ffffff;  
+	text-decoration:none;	
+   /*color: #000;*/
+}
+
+
+
+/*MENU poorbuk */
+
+.menuActive{background-color:green;}
+.tableMenuIcons{background-color:black;margin:auto;width:400px;margin-top:10px;}
+.menuHiddenRelleno{visibility:hidden;width:100%;height:65px;clear:both;}
+.menuRellenoBackground{background-color:black;width:100%;height:65px;position:fixed;top:0px;left:0px;z-index:5;}
+#divMenuMostrarMenu{display:none;position:fixed;right:40%;top:0px;background-color:black;/*right:0px;float:right;margin-right:100px;*/z-index:9998;}
+
+
+/*START DIV DISPLAYIN USER AND DATE*/
+#myDivStartUsernamePlusDate{font:italic 16px Georgia,serif;color:grey;float:left;clear:both;margin-bottom:20px;}/*display:none*/
+
+/*****************************************************************************/
+/*MAIN TEXT EDITOR DIV AND BUTTONS*/
+#myDiv
+{
+    float:left;
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:6px;
+    min-height:20px;
+    min-width:100px;
+    margin-top:10px;
+    border:solid 1px grey;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font:italic 16px Georgia,serif;
+    color:black;
+    word-wrap: break-word;
+
+}
+/*NORMAL DIV TO SHOW UPLOADED FILES AND PICTURES*/
+#mydivNow{width:200px;margin-top:10px;}
+/*UPLOAD FILES IMAGES TEXTS AND BUTTONS*/
+
+
+#divHelpTextForTextEditor{width:310px;font:italic 12px Georgia,serif;color:grey;}
+
+
+#divFileImageSubmitAllWrapper{/*border:solid 2px green;*/float:left;width:100px;height:150px;}
+#divFileImageAllWrapper{float:left;width:94px;height:70px;/*overflow:hidden;border:solid 2px grey;*/}
+#divFileIFileAllWrapper{clear:both;float:left;width:94px;overflow:hidden;/*border:solid 2px blue;*/}
+#uploadImagePlusFileWrapper{float:left;}
+
+.imgInputFileImage{width:20px;height:20px;float:left;margin-right:4px;}
+
+#buttonDeleteFiles{visibility:hidden;}
+.uploadImageFileText
+{
+	float:left;
+	/*font-weight:bolder;*/
+	font-size:16px;
+	color:grey;
+
+}
+#myfile,#myfile2{
+	/*float:left;*/
+	/*width:124px;*/
+	color:black;
+	display: inline;
+	/*font:10px;*/
+	/*clear:both;*/
+	/*border:solid 2px magenta;*/
+}
+
+#myDivFileUploadedImageFileWrapAll{/*border:solid 2px red;*/ float:left;width:70px;}
+.myDivFileUploadImage{max-width:95%;clear:both;margin-top:10px;margin-bottom:10px;}
+/*.myImgUploaded{/*border:solid 2px magenta;*//*max-width:100%;}*/
+.myImgUploaded{/*border:solid 2px magenta;*/max-width:100%;margin-left:4px;}
+.myDivFileUploadFile{max-width:100%;clear:both;margin-top:10px;margin-bottom:10px;}
+
+/*MAIN SUBMIT BUTTON*/
+.mySubmitButton  {
+
+	float:left;
+	margin-top:10px;
+	padding:4px;
+	font-size:14px;
+	
+}
+
+
+/*END MAIN TEXT EDITOR DIV AND BUTTONS*/
+/*****************************************************************************/
+
+
+
+/*****************************************************************************/
+/*POST ALL*/
+/*****************************************************************************/
+/*POST TABLE*/
+.tablePostAll{padding:4px 6px;float:left;clear:both;}
+/*MAIN POST USER HEADER*/
+
+
+
+.mySubmitFriendProfileFrontPage{width:100% !important;height:80px !important;}
+.divUserPhotoandNameWrapper{float:left;clear:both;width:100%;}
+.divUsername{margin-left:20px;margin-top:10px;font:italic 16px Georgia,serif;word-break:break-all;}
+
+
+.divImgPostUserPhoto{overflow:hidden;float:left;width:60px;height:60px;background-color:black;text-align:center;margin-right:10px;}
+
+/*WE USE IMPORTANT TO AVOID CONFLICTS WITH BOOTSTRAP*/
+.imgUserPhotoPost{
+
+width:60px;
+
+}
+
+/*MAIN POST CONTENT*/
+.myDivPostMainContent{margin-bottom:15px;float:left;clear:both;margin-top:10px;color:black;width:400px;font:italic 16px Georgia,serif;word-wrap: break-word;}/*word-break:break-all;*/
+
+/*MAIN POST BUTTONS*/
+.loveCounterAndImage{height:40px;clear:both;}
+.myLoveCounter{color:grey;float:left;min-width:40px;font:italic bold 16px Georgia,serif;margin-right:7px;}
+.buttonheart{float:left;width:30px;height:30px;margin-right:8px;}
+.mySubmitLove,.myCloneButton{
+
+	margin-right:10px;
+}
+.loveandclonegeneraldiv{clear:both;}
+
+
+/*END MAIN POST*/
+/*****************************************************************************/
+
+/*****************************************************************************/
+/*COMMENTS*/
+/*DISPLAYED COMMENTS*/
+.divAllComments{clear:both;min-height:1px;margin-top:20px;max-height:140px;overflow:auto;/*background-color:white;*/}
+.commentsCounter {display:inline;font:italic 16px Georgia,serif;color:grey;}
+.labelComments{float:left;width:150px;margin-bottom:20px;font:italic 20px Georgia,serif;color:brown;}
+
+/*.myDivCommentsJustTextCommentsBeforeAllComments{clear:both;color:grey;}*/
+.commentsnicefont{color:grey;}
+
+
+ 
+  
+ /******************************/
+ .commentDivMainComment
+	{
+		word-wrap:break-word;
+		margin-bottom:10px;
+		max-width:250px;
+		/*border:2px grey solid;*/
+		color:black;
+		clear:both;
+		font:italic 16px Georgia,serif;
+	}
+.commentDivPhotoUser{float:left;margin-right:10px;}
+.commentImgUserPhoto{width:20px;height:20px;}
+.commentDivUserName{width:80%;max-width:200px;margin-left:30px;clear:right;color:grey;font:italic 16px Georgia,serif;}
+.commentDivContentDB{margin-top:10px;color:black;font:italic 16px Georgia,serif;}
+
+/*NEW COMMENTS DIV AND SUBMIT BUTTON*/
+/*.myDivComment
+	{
+		word-wrap:break-word;
+		width:80%;
+		max-width:250px;
+		min-height:20px;
+		font:italic 16px Georgia,serif;
+		color:black;
+		border: 2px solid grey;
+		background-color:white;
+	}
+*/
+
+/*NEW COMMENTS*/
+.newCommentWrapper
+{
+    float:left;
+    clear:both;
+    width:90%;
+   /* border:solid 2px yellow;*/
+}
+
+
+.myDivComment
+{	
+    float:left;
+    background-color:white;
+    border:solid 2px grey;
+    font:italic 16px Georgia,serif;
+    min-height:20px;
+    width:70%;
+    color:black;
+    word-wrap: break-word;
+}
+
+
+.mySubmitComment
+{
+    	float:left;
+	padding:8px 8px;
+	/*width:auto;*/
+        /*border:solid 2px blue;*/
+        /*overflow:hidden;*/
+        font-weight:600;
+        font:14px Impact,serif;
+	margin-top:-1px;
+        margin-left:6px;
+	/*margin-bottom:80px;*/
+}
+.myDivWriteYourCommentHere{color:grey;}
+/*END COMMENTS*/
+/*****************************************************************************/
+/*END POST ALL*/
+/*****************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************FRIENDS.HTML******************************************/
+/**************FRIENDS.HTML******************************************/
+/**************FRIENDS.HTML******************************************/
+/**************FRIENDS.HTML******************************************/
+
+
+
+input.inputFindAmigoInMyListByName{width:100%;}
+.imgUserPhotoUserFinder{width:30px;height:30px;}
+.lblimgUserNameUserFinder{font:italic 14px Georgia,serif;}
+.divFindFriendResultsFor{font:italic 20px Georgia,serif;color:brown;}
+ .mySubmitAmigo
+{
+	/*float:left;*/
+	width:100px;
+	height:70px;
+	font:italic 12px Georgia,serif;
+}
+ .mySubmitAmigoHalfSize
+{
+	float:left;
+	width:50px;
+	height:70px;
+	font:italic 12px Georgia,serif;
+}
+
+.mySubmitFriendProfile,.mySubmitFriendAddEditorToWebsite
+{
+	/*float:left;*/
+	width:100px;
+	height:70px;
+	font:italic 12px Georgia,serif;
+	text-align:left;
+	/*word-break:break-all;*/
+
+}
+
+
+/**************USER FINDER LABELS AND TABLES***************************/
+input.inputUserFinderbyname{width:150px;margin:0px;}
+.divFinderFriend{float:left;clear:both;width:220px;background-color:black;margin:0px;border:solid 10px black;}
+
+#labelTheUserNoExist{float:left;width:200px;height:80px;margin:0px;padding:10px;font:italic 16px Georgia,serif;color:white;background-color:black;}
+#labelTheUserNotInFriendList{float:left;width:200px;height:40px;padding:8px;font:italic 16px Georgia,serif;color:white;background-color:black;}
+
+
+
+
+/*.tableFriendListFinder{position:absolute;margin-top:-35px;background-color:black;}*/
+/*.tableFriendListFinder{float:left;margin:0px;background-color:black;}*/
+.tableFriendRequestToFrontPage th{/*border:solid 2px brown;*/width:110px;text-align:left;}
+.tableFriendRequestToFrontPage td,th{/*border:solid 2px brown;*/width:110px;height:70px;text-align:left;}
+.tableFriendRequestToFrontPage {font:italic 12px Georgia,serif;color:grey;/*border:solid 2px brown;*/}
+#divNewFriendRequests{font:italic 20px Georgia,serif;color:brown;clear:both;}
+.divUserNameFriend{word-break:break-all;}
+#divAllMyFriends{font:italic 20px Georgia,serif;color:brown;}
+
+
+
+
+
+
+/**************profile.php******************************************/
+/**************profile.php******************************************/
+/**************profile.php******************************************/
+/**************profile.php******************************************/
+
+
+/**************PROFILE YO******************************************/
+.divImgProfileChangePhoto{text-align:left;padding:8px;}
+#labelChangeYourPicture{text-align:left;font-size:20px;}
+
+.divMyProfileAllWrapper{background-color:bisque;border:solid 2px grey;padding:0px;word-wrap: break-word;}
+
+.labelMyPosts{font:italic 20px Georgia,serif;color:brown;}
+
+
+
+
+.divImgProfileUserPhoto{width:100%;background-color:black;text-align:center;/*border:solid 8px silver;*/}
+.imgProfileUserPhoto{max-width:100%;max-height:100%;}
+
+
+.divProfileNameUser{padding:10px !important;font:italic 40px Georgia,serif;color:grey;}
+#divFileImageProfileAllWrapper{width:92px;overflow:hidden;}
+
+
+#tableProfileShowYo {font:italic 16px Georgia,serif;color:black;/*border:solid 2px brown;*/width:100%;}
+/*#tableProfileShowYo th{border:solid 2px brown;width:110px;text-align:left;}
+#tableProfileShowYo td,th{/*border:solid 2px brown;width:110px;height:70px;text-align:left;}
+#tableProfileShowYo {font:italic 12px Georgia,serif;color:grey;/*border:solid 2px brown;}*/
+
+
+
+
+
+
+
+#labelMyProfile{font:italic 20px Georgia,serif;color:brown;}
+#labelDescription{padding-left:10px;font:italic 20px Georgia,serif;color:brown;}
+#divMyUserDescription{/*border:solid 2px grey;width:80%;*/padding:8px;word-wrap: break-word;max-width:300px;}
+
+
+
+
+
+
+
+
+
+.divChangePassAdvice{font:italic 14px Georgia,serif;color:brown;}
+
+/**************PROFILE FRIENDS******************************************/
+
+#labelFriendsPosts{display:inline;font:italic 20px Georgia,serif;color:brown;}
+#labelMyFriendsProfile{display:inline;font:italic 20px Georgia,serif;color:brown;}
+#labelMyFriendsDescription{display:inline;margin-left:10px;font:italic 14px Georgia,serif;color:brown;}
+
+
+#divProfileFriendFriends{display:none;}
+#profileFriendsButtonShowMyFriendFriends{height:60px;width:100%;font:italic 14px Georgia,serif;color:black;}
+
+.widthHundred{width:100% !important;}
+
+
+
+
+
+
+
+/**********MESSAGES*************************************/
+/*******FIND USER****************************/
+.tableFindUser{position:absolute;margin-top:-40px;z-index:9997;}
+.tableFindUser td,th{/*border:solid 2px brown;*/padding:4px;height:24px;text-align:left;}
+.tableFindUser {background-color:silver;/*border:solid 2px brown;*/}
+
+.buttonAddUserToListMessages,.buttonFriendIdMessage{width:150px;height:30px;text-align:left;overflow:hidden;}
+
+
+
+.divUserNameFriendMessages {display:inline;font:italic 16px Georgia,serif;color:brown;}
+/*.tdUserFinderMessages{border:solid 2px black;}*/
+.imgUserPhotoUserFinderMessages{display:inline;width:20px;height:20px;}
+
+
+
+/***********CHATS****************************/
+#divChatAll{border:solid 2px grey;width:200px;}
+textarea#textareaMessage{border:solid 2px blue;width:100px;height:24px;clear:both;width:150px;margin-left:2px;}
+#buttonSubmitMessage{clear:both;margin-top:-10px;}
+
+/*USER FINDER******************************/
+#divUsersListToSendToMesssages{width:156px;padding:4px;border:solid 2px grey;}
+#divUsersListAll{display:none;}
+
+/*SHOW CONVERSATION******************************************/
+
+#divShowConversation{/*display:none;*//*border:solid 2px red;*/width:100%;height:220px;overflow:auto;}
+
+#tableShowConversation{/*border:solid 2px blue;*/font:italic 16px Georgia,serif;color:black;}
+#tableShowConversation td {/*border:solid 2px grey;*/}
+
+#labelNamesToAllMessage{font:italic 14px Georgia,serif;color:grey;width:100%;}
+.mySubmitFriendProfileMessages{width:100% !important;height:50px !important;}
+/*.labelUserNameConversation{font:italic 12px Georgia,serif;color:grey;width:90px;border:solid 2px violet;margin-left:4px;height:36px;overflow:hidden;word-wrap: break-word;}*/
+
+.divUserNamePlusPhotoMessages{float:left;display:inline;}
+.labelUserNameConversation{float:left;margin-left:6px;font:italic 12px Georgia,serif;color:grey;padding-left:8px;
+/*border:solid 2px violet;*/width:70px;height:30px;overflow:hidden;word-wrap: break-word;}
+
+
+.divMessageContent{padding:10px;width:150px;word-wrap: break-word;}
+
+
+
+
+
+
+
+
+
+.labelUserNameMessagesAlign{/*border:solid 2px white;*/margin-top:6px;width:100%;font:italic 12px Georgia,serif;color:grey;}
+.labelUserNameMessages{/*border:solid 2px white;*/width:100%;height:36px;overflow:hidden;}
+
+
+
+
+
+
+/*SHOW NEW MESSAGES*/
+#divShowNewMessages{/*border:solid 1px grey;*/width:180px;margin-top:10px;margin-bottom:10px;background-color:yellow;}
+/*.buttonSeeConversation{width:91px;height:30px;overflow:hidden;}*/
+#labelNewMessages{text-align:left !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SHOW ALL MESSAGES*/
+.labelToNamesAllMessages{/*border:solid 2px white;*/font:italic 12px Georgia,serif;color:grey;width:100%;min-height:36px;}
+.labelMessageTeaserInShowAll{/*border:solid 2px white;*/font:italic 16px Georgia,serif;color:black;width:100%;height:30px;overflow:hidden;}
+
+
+
+
+
+
+.tableMessages td,th{/*border:solid 2px brown;*/padding:4px;width:210px;height:24px;text-align:left;}
+.tableMessages {background-color:silver;/*border:solid 2px brown;*/}
+
+
+
+#txtHintPrivateMessage {position:absolute;margin-top:-26px;}
+#labelMessagesTheUserNoExist{float:left;width:200px;height:40px;margin:0px;padding:8px;font:italic 16px Georgia,serif;color:white;background-color:black;}
+
+/**********MESSAGE SHOW MESSAGES*************************************/
+
+#divShowAllMessages{/*border:solid 2px grey;*/width:200px;height:220px;overflow:auto;}
+
+
+
+
+.imgUserPhotoMessages{width:40px;height:40px;}
+
+
+
+.messageTdTableShowMessages {width:200px;padding:4px;text-align:left;vertical-align:top;word-break:break-all;}
+.userTdTableShowMessages {padding:4px;width:50px;text-align:left;vertical-align:top;}
+
+
+
+
+
+
+
+
+
+
+
+
+#tableShowMessages {border-collapse: collapse;font:italic 16px Georgia,serif;color:black;}
+#tableShowMessages tr {/*border:solid 2px grey;*/}
+
+
+
+
+
+
+
+
+
+/**********************NOTIFICATIONS*********************************************/
+
+/*MESSAGES NOTIFICATION TO FRONT PAGE IF NEW MESSAGES*/
+#divNewMessagesAllWrapper{width:200px;display:none;}
+#divNotificationsShowNewMessages{width:200px;margin-top:10px;margin-bottom:10px;}
+
+
+
+/******************************************/
+/*NOTIFICATION FOLLOWING (COMMENTS-LOVE-CLON)*/
+#divNewFollowingAllWrapper{display:none;width:100%;margin-top:10px;margin-bottom:10px;float:left;clear:both;}
+
+
+/*TABLE */
+.buttonSeeNotification{}
+#tableNotificationsPost{table-layout: fixed;}
+#tableNotificationsPost td div { /*REMEMBER LABELS ARE DIVS INSIDE THE TABLE*/}
+
+td.tdFirstNotificationsPost{width:50px;padding-left:10px;}
+td.tdMiddleNotificationsPost{overflow:hidden;width:120px;padding:10px;}
+td.tdLastNotificationsPost{padding-right:10px;}
+
+/*NOTE THAT LABELS ARE DIVS INSIDE THE TABLE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.labelNotificationTeaser{margin-top:4px;float:left;padding-left:4px;width:88px;height:36px;overflow:hidden;}
+.labelNotificationFromName{float:left;overflow:hidden;width:140px;height:20px;font:italic 16px Georgia,serif;color:grey;}
+.labelDateMessages{float:left;font:italic 11px Georgia,serif;color:grey;}
+#divphpnotificationsPosts{float:left;clear:both;width:200px;margin-top:10px;margin-bottom:10px;/*border:solid 2px grey;*/}
+
+/*.labelNotificationConversationFromName{overflow:hidden;width:120px;height:20px;font:italic 10px Georgia,serif;color:grey;}
+/*******************************************/
+
+
+
+
+/*TABLE NOTIFICATION FRONT PAGE*/
+.tableNotificationsFrontPage{/*position:absolute;*/padding:4px 6px;float:left;clear:both;}
+.tableNotificationsShowPostFrontPage{display:none;padding:4px 6px;float:left;clear:both;}
+.divScrollGeneral{/*border:solid 2px white;*/width:340px;height:220px;overflow:auto;}
+
+
+.divNotificationsScrolledGeneral{/*border:solid 2px white;*/max-height:220px;overflow:auto;}
+
+#divphpnotificationsShowPostfByPostId{}
+#divphpnotificationsNewMessagesToFrontPage{float:left;clear:both;background-color:pink;}
+
+#divNewFriendRequestsFrontPage{display:none;font:italic 20px Georgia,serif;color:brown;clear:both;}
+/*#divShowNewFriendRequests{padding-left:10px;margin-top:10px;margin-bottom:10px;border:solid 1px grey;clear:both;background-color:yellow;}*/
+
+
+
+
+
+
+
+/*************** INSTALACION***************/
+#buttonShowAllInstalations,#buttonEditInstallation{display:none;}
+.tableInstalacion{width:90%;}
+table.tableInstalacion{width:90%;}
+.divWordBreakerIntalacion{padding:8px;/*border:solid 2px grey;*/width:90%;word-wrap: break-word;font:italic 12px Georgia,serif;}
+.divInstaName{padding:8px;width:90%;word-wrap: break-word;font:italic 18px Georgia,serif;color:grey;}
+
+.buttonInstallationShow
+{
+	width:150px;
+	height:30px;
+	font:italic 12px Georgia,serif;
+	overflow:hidden;
+	text-align:left;
+}
+
+/*--------------FINDER*/
+
+.divFinderInstallation{float:left;clear:both;width:150px;background-color:black;margin:0px;border:solid 2px black;}
+.buttonFinderInstallation{width:100%;height:35px;text-align:left;}
+.buttonInstallation{width:150px;}
+
+
+
+.labelInstalacionComentarios{font-size:30px;}
+.divInstalacionComment{background-color:LightGreen;border:solid 2px grey;padding:8px;word-wrap: break-word;}
+.divInstalacion{background-color:LightSteelBlue;border:solid 2px grey;padding:8px;word-wrap: break-word;}
+
+
+.imgUserPhotoInstallation{
+
+width:30px;
+
+}
+
+.divImgPostUserPhotoInstallation{overflow:hidden;float:left;width:30px;height:30px;background-color:black;text-align:center;margin-right:10px;}
+
+/*************ADMIN*****************************************/
+
+
+#selectSaveRollForUserAllWrapper{display:none;}
+
+
+
+
+
+/*
+@media screen and (min-width:1000px) {
+body{background-color:green;}
+/*}
+
+/*#httpShowPostFromStartjsAndmyTextEditorDBShowPostphp{margin:auto;}*/
+/*divHttpRequestPostFrontPage*/
+@media screen and (min-width:100px) and (max-width:300px) 
+{ 
+/*TEST  .allContentWrapper{border:solid 2px blue;} 
+*/
+	/*	.allContentWrapper{width:210px;margin-left:4px;}
+                .allContentWrapperOutside{width:210px;margin-left:4px;}	
+                .allContentWrapperpoorbuk{width:210px;margin-left:4px;/*border:solid 2px red;}*/
+		.commentDivMainComment{max-width:200px;}
+				
+
+		.tableMenuIcons{width:200px;}
+		.divMyProfileAllWrapper{width:200px;}
+		
+		
+		#httpShowPostFromStartjsAndmyTextEditorDBShowPostphp{width:100%;max-width:246px;}
+		#mydivNow{width:80%;max-width:220px;}
+		.myDivPostMainContent{width:100%;max-width:220px;}
+		.divMyProfileAllWrapper{width:100%;max-width:210px;}/*10 px less because of picture borders to 8px*/
+		/*.allContentWrapperpoorbuk{padding:0px;}*/
+		.commentsnicefont{width:20px;}
+		.divMessageAll{left:1%;}
+		#divMyUserDescription{width:100%;max-width:200px;}	
+		
+		.myPost{width:200px;}
+		#myDiv{width:120px;margin-right:10px;}
+
+}
+/*
+@media screen and (min-width:301px) and (max-width:359px) 
+{ 
+
+		.allContentWrapper{width:265px;margin-left:4px;}		
+		.allContentWrapperpoorbuk{width:300px;margin-left:auto;margin-right:auto;}
+		.tableMenuIcons{width:280px;}
+
+		
+		#httpShowPostFromStartjsAndmyTextEditorDBShowPostphp{width:100%;max-width:296px;}
+
+		#mydivNow{width:100%;max-width:296px;}
+		.myDivPostMainContent{width:100%;max-width:296px;}
+		.divMyProfileAllWrapper{width:100%;max-width:260px;}
+
+		.commentsnicefont{width:20px;}
+		.divMessageAll{left:4%;}
+		#divMyUserDescription{width:100%;max-width:240px;}		
+
+		.myPost{width:330px;}	
+		#myDiv{width:150px;}		
+
+}
+*/
+@media screen and (min-width:301px) and (max-width:359px) 
+{
+/*TEST  .allContentWrapper{border:solid 2px green;} 
+*/
+		/*.allContentWrapper{width:300px;margin-left:40px;}
+                .allContentWrapperOutside{width:265px;margin-left:auto;margin-right:auto;}		
+		.allContentWrapperpoorbuk{width:265px;margin-left:4px;}*/
+		.tableMenuIcons{width:280px;}
+
+                
+		#httpShowPostFromStartjsAndmyTextEditorDBShowPostphp{width:100%;max-width:296px;}
+
+		#mydivNow{width:100%;max-width:296px;}
+		.myDivPostMainContent{width:100%;max-width:296px;}
+		.divMyProfileAllWrapper{width:100%;max-width:260px;}/*16 px less because of picture borders to 8px*/
+		/*.allContentWrapperpoorbuk{padding:0px;}*/
+		.commentsnicefont{width:20px;}
+		.divMessageAll{left:4%;}
+		#divMyUserDescription{width:100%;max-width:240px;}		
+
+		.myPost{width:250px;}	
+		#myDiv{width:150px;}		
+
+}
+@media screen and (min-width:360px) and (max-width:565px) 
+{ 
+/*TEST  .allContentWrapper{border:solid 2px orange;} */
+                
+		/*.allContentWrapper{width:350px;margin-left:40px;}
+                .allContentWrapperOutside{width:265px;margin-left:auto;margin-right:auto;}*/
+		.tableMenuIcons{width:280px;}
+
+		
+		
+		.myDivPostMainContent{width:100%;max-width:340px;}
+		.divMyProfileAllWrapper{width:100%;max-width:324px;}/*16 px less because of picture borders to 8px*/
+
+		
+		.banderas{display:none;}		
+		.banderasMobil{display:block;}
+		.divMessageAll{left:5%;}
+		#divMyUserDescription{width:100%;max-width:240px;}	
+		/*.imageBasicPage{display:none; }*/
+		
+		.myPost{width:330px;}	
+		#myDiv{width:225px;}
+
+}
+
+@media screen and (min-width:566px) and (max-width:850px)
+{ 
+    
+/*  .allContentWrapper{border:solid 2px red;}
+ */       
+	.allContentWrapper{width:550px;margin-left:auto;margin-right:auto;}
+        .allContentWrapperOutside{width:540px;margin-left:auto;margin-right:auto;}
+        .divMyProfileAllWrapper{width:100%;max-width:393px;}/*16 px less because of picture borders to 8px*/
+	.tableMenuIcons{width:380px;}
+		.banderas{display:block;}		
+		.banderasMobil{display:none;}
+		/*.imageBasicPage{display:none; }*/
+		.divMessageAll{left:15%;}
+		#myDiv{width:300px;}		
+
+		
+}
+
+
+@media screen and (min-width:850px) and (max-width:1114px)
+{ 
+/*//TEST  .allContentWrapper{border:solid 2px magenta;}*/
+
+    .allContentWrapper{width:840px;margin-left:auto;margin-right:auto;}
+    .allContentWrapperOutside{width:800px;margin-left:auto;margin-right:auto;}
+    .divMyProfileAllWrapper{width:100%;max-width:393px;}/*16 px less because of picture borders to 8px*/
+    .banderas{display:block;}		
+    .banderasMobil{display:none;}
+    /*.imageBasicPage{display:none; }*/
+    .divMessageAll{left:33%;}
+    #myDiv{width:300px;}			
+
+}
+
+
+@media screen and (min-width:1115px) 
+{ 
+/*TEST  .allContentWrapper{border:solid 2px cyan;}    */    
+        .allContentWrapperpoorbuk{width:400px;margin:0px auto;padding:0px;}
+	.allContentWrapper{width:1100px;margin-left:auto;margin-right:auto;}
+        .allContentWrapperOutside{width:1080px;margin-left:auto;margin-right:auto;}
+        .divMyProfileAllWrapper{width:100%;max-width:393px;}/*16 px less because of picture borders to 8px*/
+			.banderas{display:block;}		
+			.banderasMobil{display:none;}
+		.divMessageAll{left:33%;}
+			/*.imageBasicPage{display:block; }
+			.imageBasicPage:hover{opacity:1;}*/
+
+		#myDiv{width:300px;}				
+}
+
+
+
+	
+/*************ONLY CONTACT ***********************************************/
+
+@media screen and (min-width:935px) 
+{ 
+	.allContentWrapperOnlyContact{width:900px;margin-left:auto;margin-right:auto;}
+}
+
+@media screen and (min-width:614px) and (max-width:934px)
+{ 
+	.allContentWrapperOnlyContact{width:600px;margin-left:auto;margin-right:auto;}
+}
+
+@media screen and (min-width:322px) and (max-width:613px)
+{ 
+	.allContentWrapperOnlyContact{width:270px;margin-left:auto;margin-right:auto;}
+}
+
+@media screen and (min-width:288px) and (max-width:321px) 
+{ 
+	.allContentWrapperOnlyContact{width:266px;margin-left:auto;margin-right:auto;}
+}
+@media screen and (max-width:287px)
+{ 
+	.allContentWrapperOnlyContact{width:266px;margin-left:4px;margin-right:0px;}
+}
+
+
+
+/*SCROLLBARS: FOR NOW WORKS IN SAFARI AND CHROME*/
+/*
+::-webkit-scrollbar {
+    
+     width:10px;    
+     height:10px;   
+     background:grey;
+}
+::-webkit-scrollbar-track-piece  {
+    background-color: grey;
+}
+::-webkit-scrollbar-thumb {
+   width: 10px;
+   background:pink;
+}
+*/

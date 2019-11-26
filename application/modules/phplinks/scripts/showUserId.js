@@ -1,0 +1,1 @@
+//alert("Wellcomen");function showUserId(){	var myuserid= localStorage["poorbook.myuserid"];	$("#userId").html("My user id = "+myuserid);}showUserId();
