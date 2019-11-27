@@ -416,7 +416,7 @@ function registerSendMail()//$userid,$ip)
     $this->status=true;
     $adminmail= 'admin@poorbuk.com';
     $subject = 'poorbuk: your username and pass' ;
-    $message ="Wellcome to poorbuk. Log in at  http://www.poorbuk.com/ .
+    $message ="Wellcome to poorbuk. Log in at  http://localhost/ .
     Thanks a lot for using poorbook. You will cooperate for a better world 
     just having fun at the same time. Enjoy :D \n\r
     Username = ".$this->mail."\n\r
@@ -442,8 +442,8 @@ function mailToForgotMyPass($passUserRandomNow)//$userid,$ip)
             $mail=$this->mail;//'jarimortega@gmail.com';
             //echo ' - $mail = '.$mail;
             $subject = 'Poorbook: your username and pass' ;
-            //$message ="Please, press this link and create a new password: http://www.poorbuk.com/poorbuk/iniciarsesionolvidepassnewpass.php?a=".$passUserRandomNow;
-            $message ="Please, press this link and create a new password: http://www.poorbuk.com/index.php?page=iniciarsesionolvidepassnewpass&a=".$passUserRandomNow;
+            //$message ="Please, press this link and create a new password: http://localhost/poorbuk/iniciarsesionolvidepassnewpass.php?a=".$passUserRandomNow;
+            $message ="Please, press this link and create a new password: http://localhost/index.php?page=iniciarsesionolvidepassnewpass&a=".$passUserRandomNow;
             //the first adress is the adress the mail will be sent. The question is: who is sent to? user or admin?
             $this->status = mail($mail, $subject, $message, "From: " .$adminmail);
             //echo "Thanks a lot for helping people using poorbook. Your password have been sent to your email Enjoy :D";

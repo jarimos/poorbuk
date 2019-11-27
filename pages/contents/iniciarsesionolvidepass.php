@@ -29,7 +29,7 @@
 	</div>
 		<br><br>
 
-                <!--onclick="javascript:window.location=window.location.assign='http://www.poorbuk.com/poorbuk/index?page=registrarse'"-->
+                <!--onclick="javascript:window.location=window.location.assign='http://localhost/poorbuk/index?page=registrarse'"-->
                 <button class="linkGeneral nuevoUsuario buttonGeneralJarim myButtonsLoveClone" id="nuevousuario" style="margin-left:0px;margin-bottom:0px;margin-top:10px;"  >Nuevo usuario</button>
  
 

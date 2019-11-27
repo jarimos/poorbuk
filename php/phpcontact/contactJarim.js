@@ -54,7 +54,7 @@ $( "body" ).on( "click", "#buttonContact", function()
 	//alert(message); 
 	
 	//***************POST FUNCTION 
-        localStorage["poorbook.poorbuk_Path_Relativ_Global"]= "http://www.poorbuk.com/";
+        localStorage["poorbook.poorbuk_Path_Relativ_Global"]= "http://localhost/";
         //alert (localStorage["poorbook.poorbuk_Path_Relativ_Global"]);
 	$.post(localStorage["poorbook.poorbuk_Path_Relativ_Global"]+"php/phpcontact/contactSendEmail.php",
 	{

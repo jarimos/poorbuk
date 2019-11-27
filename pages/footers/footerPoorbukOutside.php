@@ -5,53 +5,52 @@
 
         
 	<!--***INITIALIZE JS PATHS IN LOCAL-STORAGE phpgeneral********************************************-->
-	<script type="text/javascript" src="/application/modules/phpgeneral/scripts/startInitializeJSPaths.js?update=<?php echo time();?>"></script>	        
+	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/startInitializeJSPaths.js"></script>	        
 	<!--***SET STATUS phpgeneral********************************************-->
-	<script type="text/javascript" src="/application/modules/phpgeneral/scripts/setStatus.js?update=<?php echo time();?>"></script>	
+	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/setStatus.js"></script>	
 	<!--***MESSAGES phpgeneral********************************************-->
-	<script type="text/javascript" src="/application/modules/phpgeneral/scripts/messagesWriteNewMessage.js?update=<?php echo time();?>"></script>	
+	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/messagesWriteNewMessage.js"></script>	
 	<!--***VALIDATION phpgeneral********************************************-->	
-	<script type="text/javascript" src="/application/modules/phpgeneral/scripts/myScriptValidation.js?update=<?php echo time();?>"></script>	
+	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/myScriptValidation.js"></script>	
 	<!--***FUNCTIONS  phpgeneral********************************************-->	
-	<script type="text/javascript" src="/application/modules/phpgeneral/scripts/phpgeneralFunctions.js?update=<?php echo time();?>"></script>	
+	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/phpgeneralFunctions.js"></script>	
        
         <!--START LANGUAGE-->	
-       <script type="text/javascript" src="/application/modules/phpgeneral/scripts/phpgeneralTranslateOutsidePages.js?update=<?php echo time();?>"></script>
+       <script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/phpgeneralTranslateOutsidePages.js"></script>
  
 <?php	
 //echo "TemplateName = ".$TemplateName;
 if ($TemplateName == "contact.php") { echo '
         <!-- contact.php -->
-	<script src="php/phpcontact/contactJarim.js?update='.time().'"></script>
-'; }
+	<script src="php/phpcontact/contactJarim.js"></script>'; }
 ?> 
 
 <?php	
 if ($TemplateName == "iniciarsesionolvidepass.php") { echo '
         <!-- iniciarsesionolvidepass.php -->
-    <script src="php/phploginfogotpass/loginForgotMyPass.js?update='.time().'"></script>
+    <script src="php/phploginfogotpass/loginForgotMyPass.js"></script>
 '; }
 ?> 
        
 <?php	
 if ($TemplateName == "iniciarsesionolvidepassnewpass.php") { echo '
         <!-- iniciarsesionolvidepassnewpass -->
-<script src="php/phploginfogotpassnewpass/phploginforgotpassnewpassValidation.js?update='.time().'"></script>
-<script src="php/phploginfogotpassnewpass/loginForgotMyPassNewPass.js?update='.time().'"></script>
+<script src="php/phploginfogotpassnewpass/phploginforgotpassnewpassValidation.js"></script>
+<script src="php/phploginfogotpassnewpass/loginForgotMyPassNewPass.js"></script>
 '; }
 ?> 
        <?php	
 if ($TemplateName == "pindex.php") { echo '
         <!-- pindex.php -->
-	<script src="php/phplogin/login.js?update='.time().'"></script>
-	<script src="php/phplogin/startLogin.js?update='.time().'"></script>
+	<script src="php/phplogin/login.js"></script>
+	<script src="php/phplogin/startLogin.js"></script>
 '; }
 ?> 
        <?php	
 if ($TemplateName == "registrarse.php") { echo '
         <!-- registrarse.php -->
-    <script src="/php/phpregister/register.js?update='.time().'"></script>
-    <script src="/php/phpregister/myRegisterValidation.js?update='.time().'"></script>
+    <script src="/php/phpregister/register.js"></script>
+    <script src="/php/phpregister/myRegisterValidation.js"></script>
 '; }
 ?> 
     
@@ -85,12 +84,12 @@ if ($TemplateName == "registrarse.php") { echo '
 
   
     <!--SET THIS SCRIPT THE LAST BECAUSE WE DONT KJNOW IF THEY ARE IDIOTS OR WHAT BUT NO SCRIPT AFTER SEEMS TO WORK-->
-    <script src="js/bootstrap/bootstrap.min.js?update=<?php echo time();?>"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
 
 	<!-- LOAD JQuery jarims script-->
-    <!--<script src="jsJarim/jarim.js?update=<?php echo time();?>"></script>-->
-	<!-- <script src="jsJarim/ScreenDetector.js?update=<?php echo time();?>"></script>-->
-	<!--<script src="contactJarim.js?update=<?php echo time();?>"></script>-->
+    <!--<script src="jsJarim/jarim.js"></script>-->
+	<!-- <script src="jsJarim/ScreenDetector.js"></script>-->
+	<!--<script src="contactJarim.js"></script>-->
 		<!---TESTING LORT HERE--->		
     <div id='testinglort'></div>
     <script>

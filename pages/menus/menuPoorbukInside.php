@@ -11,18 +11,18 @@
 
 
                     <td  >
-                            <a id="menuHome" class="menuMain" href="http://www.poorbuk.com/index.php?page=poorbuk"><img  src="files/icons/home4242icon.png"></a>
+                            <a id="menuHome" class="menuMain" href="http://localhost/index.php?page=poorbuk"><img  src="files/icons/home4242icon.png"></a>
 
                     </td>
                     <td  >
 
 <!--                            <a id="menuYo" class="menuMain" href="profile.php"><img src="files/icons/profileme4242icon.png"></a>
 -->
-                            <a id="menuYo" class="menuMain" href="http://www.poorbuk.com/index.php?page=profile"><img src="files/icons/profileme4242icon.png"></a>
+                            <a id="menuYo" class="menuMain" href="http://localhost/index.php?page=profile"><img src="files/icons/profileme4242icon.png"></a>
 
                     </td>
                     <td  >
-                            <a id="menuFriends" class="menuMain" href="http://www.poorbuk.com/index.php?page=friends"><img id="friends4242icon" src="files/icons/friends4242icon.png" ></a>
+                            <a id="menuFriends" class="menuMain" href="http://localhost/index.php?page=friends"><img id="friends4242icon" src="files/icons/friends4242icon.png" ></a>
 
                     </td>
 
@@ -50,14 +50,14 @@
         -->
     <!-- JARIM 2018 DEACTIVATED TO MAKE IT MORESIMPLE 
         <td  >
-                <a id="menuHelp" class="menuMain" href="http://www.poorbuk.com/index.php?page=help"><img src="files/icons/help4242icon.png"></a>
+                <a id="menuHelp" class="menuMain" href="http://localhost/index.php?page=help"><img src="files/icons/help4242icon.png"></a>
 
         </td>
 
 
         <td  >
 
-                <a id="buttonLogOut" href="http://www.poorbuk.com/index.php?page=pindex"><img src="files/icons/salir4242.png"></a>
+                <a id="buttonLogOut" href="http://localhost/index.php?page=pindex"><img src="files/icons/salir4242.png"></a>
         </td>
 
         <td>

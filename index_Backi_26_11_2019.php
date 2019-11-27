@@ -284,7 +284,7 @@ echo "<br>path = http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 echo('<br>dir pindex = '.basename (dirname($_SERVER['PHP_SELF']),"/")); 
 */
 //  /poorbuk/
-// http://www.poorbuk.com/poorbuk/
+// http://localhost/poorbuk/
 /*
 $file = $_SERVER['DOCUMENT_ROOT'].'/poorbuk/php/phpopendb/myDBini.php';
 // Open the file to get existing content
@@ -335,20 +335,20 @@ include_once($_SERVER['DOCUMENT_ROOT']."/pages/headers/$header_include");
 //IN THE FILE controller.class.php I HAVE ADDED A LOT OF COMMENTS TO EXPLAIN THE PROCESS.
 
 //EXAMPLES
-//CALL TO http://www.poorbuk.com/ 
+//CALL TO http://localhost/ 
 //controller transform it into  view/index.php and shows error (PAGE  404.php)
 
-//CALL TO http://www.poorbuk.com/index.php
+//CALL TO http://localhost/index.php
 //controller transform it into  view/index.php and shows error (PAGE  404.php)
 
 
-//CALL TO http://www.poorbuk.com/view/test1.php (REAL EXISTING PATH - JUMPS OVER THE CONTROLLER)
+//CALL TO http://localhost/view/test1.php (REAL EXISTING PATH - JUMPS OVER THE CONTROLLER)
 //BECAUSSE THIS IS THE REAL PATH TO AN EXISTING FILE, HTACCESS DOES NOT REDIRECT AND SHOW THE 
 //FILE WITHOUT GOING THROUGH THE CONTROLLER (AND THEREFOR PROBABLY SHOWS ERRORS OF NOT INCLUDED FILES OR CLASSES)
 
-//CALL TO http://www.poorbuk.com/test1.php (UNREAL PATH THAT WORKS AFTER THE CONTROLLER)
+//CALL TO http://localhost/test1.php (UNREAL PATH THAT WORKS AFTER THE CONTROLLER)
 //controller transform it into view/test1.php, AND BECAUSE IT EXIST, THE CONTROLLER SHOWS THE APPROPIATE TEMPLATE
-//THE POINT IS THAT THE PATH ON THE BROWSER IS STILL http://www.poorbuk.com/test1.php. IT REMAINS UNCHANGED, BECAUSE THE
+//THE POINT IS THAT THE PATH ON THE BROWSER IS STILL http://localhost/test1.php. IT REMAINS UNCHANGED, BECAUSE THE
 //CONTROLLER FILTER THE NON-EXISTING-PATH TO THE EXISTING PATH
 
 //echo "chupamela";

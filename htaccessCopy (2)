@@ -1,2 +1,2 @@
-RedirectMatch 301 ^(.*)$ http://www.poorbuk.com/poorbuk/index.php
+RedirectMatch 301 ^(.*)$ http://localhost/poorbuk/index.php
 

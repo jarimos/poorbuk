@@ -69,7 +69,7 @@ $( "#buttonSubmitIForgotMyPass" ).click(function()
                 setTimeout(function()
                 {  
 
-                    window.location.replace("http://www.poorbuk.com/index.php?page=pindex");
+                    window.location.replace("http://localhost/index.php?page=pindex");
                 //window.location.replace("index.html");
                 }, 3000); // <-- time in milliseconds  
 

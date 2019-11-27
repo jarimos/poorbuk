@@ -33,7 +33,7 @@ function phpprofileyoPasswordVerificationAndUpdate()
         var myuserid=localStorage["poorbook.myuserid"];
         //var myusername=localStorage["poorbook.myusername"]
 */
-        $.post("http://www.poorbuk.com/application/modules/phpprofileyo/phpprofileyoPasswordVerificationAndUpdate.php",
+        $.post("http://localhost/application/modules/phpprofileyo/phpprofileyoPasswordVerificationAndUpdate.php",
         {
                 oldpass: oldpass,
                 myuserpass: myuserpass,

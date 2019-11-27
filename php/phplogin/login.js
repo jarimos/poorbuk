@@ -92,7 +92,7 @@ function login()
 */   
 
     //POST ALL DATA IN FORM formlogin
-    $.post("http://www.poorbuk.com/php/phplogin/login.php",
+    $.post("http://localhost/php/phplogin/login.php",
     {
 
             mail: mail,
@@ -157,7 +157,7 @@ function login()
                 //
                 //
                 window.location.assign("index.php?page=poorbuk");
-                //window.location.assign("http://www.poorbuk.com/php/phplogin/login.php");
+                //window.location.assign("http://localhost/php/phplogin/login.php");
                 
         } 
         if(obj.status=='error')

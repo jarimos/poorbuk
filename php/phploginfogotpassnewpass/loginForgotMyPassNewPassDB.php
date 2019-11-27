@@ -36,7 +36,7 @@
     
     
 /*TESTING PURPOSES
-PATH=   http://www.poorbuk.com/plugintest01/wp-content/plugins/poorbuk/includes/poorbuk/iniciarsesionolvidepassnewpass.php?a=N7TrbR1hThS1w5palO0KccHYQkScJqehUG764niqTWYd50wgtJfZvotkUTPO7gQU3KKVS4R7m9NymQwzy7W04PdTvXgKHWkpWCHdQoyIlqFvKnF4uDv4RE4ZSGbVQlQpFQ9zwc8OuumRNCaTY1hs2s
+PATH=   http://localhost/plugintest01/wp-content/plugins/poorbuk/includes/poorbuk/iniciarsesionolvidepassnewpass.php?a=N7TrbR1hThS1w5palO0KccHYQkScJqehUG764niqTWYd50wgtJfZvotkUTPO7gQU3KKVS4R7m9NymQwzy7W04PdTvXgKHWkpWCHdQoyIlqFvKnF4uDv4RE4ZSGbVQlQpFQ9zwc8OuumRNCaTY1hs2s
 */
 //   $passTesting = "N7TrbR1hThS1w5palO0KccHYQkScJqehUG764niqTWYd50wgtJfZvotkUTPO7gQU3KKVS4R7m9NymQwzy7W04PdTvXgKHWkpWCHdQoyIlqFvKnF4uDv4RE4ZSGbVQlQpFQ9zwc8OuumRNCaTY1hs2s";
 //   $password_Update = $newUser->password_Update($passUserOriginalBeforeCoded,$passTesting,$mail);

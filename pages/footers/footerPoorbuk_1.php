@@ -12,33 +12,33 @@
 
 	<!--***GENERAL SCRIPTS********************************************-->
 	<!--***SET STATUS phpgeneral********************************************-->
-	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/setStatus.js?update=<?php echo time();?>"></script>	
+	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/setStatus.js"></script>	
 	<!--***MESSAGES phpgeneral********************************************-->
-	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/messagesWriteNewMessage.js?update=<?php echo time();?>"></script>	
+	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/messagesWriteNewMessage.js"></script>	
 	<!--***VALIDATION phpgeneral********************************************-->	
-	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/myScriptValidation.js?update=<?php echo time();?>"></script>	
+	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/myScriptValidation.js"></script>	
 	<!--***FUNCTIONS  phpgeneral********************************************-->	
-	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/phpgeneralFunctions.js?update=<?php echo time();?>"></script>	
+	<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/phpgeneralFunctions.js"></script>	
          
         <!-----TRANSLATOR LANGUAGE --------------------------------------------------------------->	
-        <script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/phpgeneralTranslator.js?update=<?php echo time();?>"></script>	
+        <script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/phpgeneralTranslator.js"></script>	
         <!-----USER LOG-OUT --------------------------------------------------------------->	
-        <script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/phpfrontButtonLogOut.js?update=<?php echo time();?>"></script>
+        <script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/phpfrontButtonLogOut.js"></script>
              
 
         
         <!--START MENU-->	
-        <script type="text/javascript" src="/poorbuk/application/modules/phpmenu/scripts/phpmenuMenuStart.js?update=<?php echo time();?>"></script>
+        <script type="text/javascript" src="/poorbuk/application/modules/phpmenu/scripts/phpmenuMenuStart.js"></script>
         <!-----MENU NOTIFICATIONS LANGUAGE --------------------------------------------------------------->	
- <!--   <script type="text/javascript" src="/poorbuk/application/modules/phpmenu/scripts/phpmenuMenuShowNotifications.js?update=<?php echo time();?>"></script>	
+ <!--   <script type="text/javascript" src="/poorbuk/application/modules/phpmenu/scripts/phpmenuMenuShowNotifications.js"></script>	
         <!-----MENU NOTIFICATIONS POST  --------------------------------------------------------------->	
-  <!--  <script type="text/javascript" src="/poorbuk/application/modules/phpnotifications/scripts/phpnotificationsNotificationsMenu.js?update=<?php echo time();?>"></script>	
+  <!--  <script type="text/javascript" src="/poorbuk/application/modules/phpnotifications/scripts/phpnotificationsNotificationsMenu.js"></script>	
 
         <!-----MENU HIDE-SHOW --------------------------------------------------------------->	
-        <script type="text/javascript" src="/poorbuk/application/modules/phpmenu/scripts/phpgeneralMenuHideShow.js?update=<?php echo time();?>"></script>	
+        <script type="text/javascript" src="/poorbuk/application/modules/phpmenu/scripts/phpgeneralMenuHideShow.js"></script>	
         
         <!-----USER OFFLINE DETECTION --------------------------------------------------------------->	
-	<!--<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/userOfflineDetection.js?update=<?php echo time();?>"></script>-->	
+	<!--<script type="text/javascript" src="/poorbuk/application/modules/phpgeneral/scripts/userOfflineDetection.js"></script>-->	
  <?php	
 //echo "<br>myUserURLFinalPath = ".$myUserURLFinalPath;
 if ($myUserURLFinalPath == "poorbuk.php" || $myUserURLFinalPath == "profilefriends.php"

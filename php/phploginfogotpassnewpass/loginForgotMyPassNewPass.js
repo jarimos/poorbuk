@@ -29,9 +29,9 @@ function registerForgotPass()
     /*
      * 
      * USE THIS URL TO TEST
-     * http://www.poorbuk.com/iniciarsesionolvidepassnewpass.php?a=N7TrbR1hThS1w5palO0KccHYQkScJqehUG764niqTWYd50wgtJfZvotkUTPO7gQU3KKVS4R7m9NymQwzy7W04PdTvXgKHWkpWCHdQoyIlqFvKnF4uDv4RE4ZSGbVQlQpFQ9zwc8OuumRNCaTY1hs2s
+     * http://localhost/iniciarsesionolvidepassnewpass.php?a=N7TrbR1hThS1w5palO0KccHYQkScJqehUG764niqTWYd50wgtJfZvotkUTPO7gQU3KKVS4R7m9NymQwzy7W04PdTvXgKHWkpWCHdQoyIlqFvKnF4uDv4RE4ZSGbVQlQpFQ9zwc8OuumRNCaTY1hs2s
      * 
-     * http://www.poorbuk.com/plugintest01/wp-content/plugins/poorbuk/includes/poorbuk/iniciarsesionolvidepassnewpass.php?a=N7TrbR1hThS1w5palO0KccHYQkScJqehUG764niqTWYd50wgtJfZvotkUTPO7gQU3KKVS4R7m9NymQwzy7W04PdTvXgKHWkpWCHdQoyIlqFvKnF4uDv4RE4ZSGbVQlQpFQ9zwc8OuumRNCaTY1hs2s
+     * http://localhost/plugintest01/wp-content/plugins/poorbuk/includes/poorbuk/iniciarsesionolvidepassnewpass.php?a=N7TrbR1hThS1w5palO0KccHYQkScJqehUG764niqTWYd50wgtJfZvotkUTPO7gQU3KKVS4R7m9NymQwzy7W04PdTvXgKHWkpWCHdQoyIlqFvKnF4uDv4RE4ZSGbVQlQpFQ9zwc8OuumRNCaTY1hs2s
 
      * AND THIS PASS
      * N7TrbR1hThS1w5palO0KccHYQkScJqehUG764niqTWYd50wgtJfZvotkUTPO7gQU3KKVS4R7m9NymQwzy7W04PdTvXgKHWkpWCHdQoyIlqFvKnF4uDv4RE4ZSGbVQlQpFQ9zwc8OuumRNCaTY1hs2s
@@ -128,7 +128,7 @@ function registerForgotPass()
                 //var userroll = localStorage["poorbook.userroll"];
                 //window.location.replace("poorbuk.php");
                 //window.location.replace("poorbuk.php");
-                window.location.replace("http://www.poorbuk.com/index.php?page=poorbuk");
+                window.location.replace("http://localhost/index.php?page=poorbuk");
         } 
         if(obj.status=='error')
         {
@@ -141,7 +141,7 @@ function registerForgotPass()
  		setTimeout(function() 
 		{
                     //window.location.replace("iniciarsesionolvidepass.php");
-                    //window.location.replace("http://www.poorbuk.com/index.php?page=pindex");
+                    //window.location.replace("http://localhost/index.php?page=pindex");
 		}, 5000);               
                 
 

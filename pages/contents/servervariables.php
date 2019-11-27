@@ -12,7 +12,7 @@ echo "SCRIPT_NAME : " . $_SERVER['SCRIPT_NAME'] . "<br>"; // /poorbuk/testDB.php
 echo "REQUEST_URI : " . $_SERVER['REQUEST_URI'] . "<br>"; // /poorbuk/testDB.php
 echo "php_SELF : " . $_SERVER['PHP_SELF'] . "<br>"; //  /poorbuk/testDB.php
 echo "SCRIPT_FILENAME : " . $_SERVER['SCRIPT_FILENAME'] . "<br>"; // C:/xampp/htdocs/poorbuk/testDB.php
-echo "HTTP_REFERER : " . $_SERVER['HTTP_REFERER'] . "<br>"; // http://www.poorbuk.com/poorbuk/testDB.html
+echo "HTTP_REFERER : " . $_SERVER['HTTP_REFERER'] . "<br>"; // http://localhost/poorbuk/testDB.html
 echo "DOCUMENT_ROOT : " . $_SERVER['DOCUMENT_ROOT'] . "<br>"; //PATH AUP TO PUBLIC ROOT LIKE C:/xampp/htdocs
 
 echo '<br><br>';

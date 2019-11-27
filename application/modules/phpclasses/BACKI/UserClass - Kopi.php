@@ -223,7 +223,7 @@ INITIALIZING VARIABLES
 	{	
 		$adminmail= 'admin@poorbuk.com';
 		$subject = 'poorbuk: your username and pass' ;
-		$message ="Wellcome to poorbuk. Log in at  http://www.poorbuk.com/ .
+		$message ="Wellcome to poorbuk. Log in at  http://localhost/ .
 		Thanks a lot for using poorbook. You will cooperate for a better world 
 		just having fun at the same time. Enjoy :D \n\r
 		Username = ".$this->mail."\n\r

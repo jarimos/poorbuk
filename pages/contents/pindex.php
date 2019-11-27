@@ -26,12 +26,12 @@
 				</br></br>
 				<button  class="myButtonAll sendButton buttonGeneralJarim myButtonsLoveClone" id="buttonlogin">Enviar</button>
 				</br></br></br>
-                                <!--onclick="javascript:window.location=window.location.assign='http://www.poorbuk.com/poorbuk/index?page=registrarse'"-->
+                                <!--onclick="javascript:window.location=window.location.assign='http://localhost/poorbuk/index?page=registrarse'"-->
                                 <button class="linkGeneral nuevoUsuario buttonGeneralJarim myButtonsLoveClone" id="nuevousuario" style="margin-left:0px;margin-bottom:0px;margin-top:10px;"  >Nuevo usuario</button>
                                 <button class="linkGeneral forgotMyPass buttonGeneralJarim myButtonsLoveClone" id="buttonIForgotMyPass" style="margin-left:0px;margin-bottom:0px;margin-top:10px;">Olvidé mi contraseña</button>
-                                <!--<a class="linkGeneral nuevoUsuario buttonGeneralJarim myButtonsLoveClone" id="nuevousuario" style="margin-left:0px;margin-bottom:0px;margin-top:10px;" href= "http://www.poorbuk.com/index?page=registrarse">Nuevo usuario</a>			
+                                <!--<a class="linkGeneral nuevoUsuario buttonGeneralJarim myButtonsLoveClone" id="nuevousuario" style="margin-left:0px;margin-bottom:0px;margin-top:10px;" href= "http://localhost/index?page=registrarse">Nuevo usuario</a>			
 				</br></br>
-				<a class="linkGeneral forgotMyPass buttonGeneralJarim myButtonsLoveClone" id="buttonIForgotMyPass" style="margin-left:0px;margin-bottom:0px;margin-top:10px;" href= "http://www.poorbuk.com/index.php?page=iniciarsesionolvidepass">Olvidé mi contraseña</a>
+				<a class="linkGeneral forgotMyPass buttonGeneralJarim myButtonsLoveClone" id="buttonIForgotMyPass" style="margin-left:0px;margin-bottom:0px;margin-top:10px;" href= "http://localhost/index.php?page=iniciarsesionolvidepass">Olvidé mi contraseña</a>
 				-->
 
 	
