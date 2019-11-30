@@ -1,1 +1,3 @@
 /netbeans/poorbuk/nbproject/private/
+#ignore all "log" folders because each computer has his own and unique...so no compatibility problems.
+log/ 
