@@ -338,7 +338,7 @@ include_once($_SERVER['DOCUMENT_ROOT']."/pages/headers/$header_include");
 //CALL TO http://localhost/ 
 //controller transform it into  view/index.php and shows error (PAGE  404.php)
 
-//CALL TO http://localhost/index.php
+//CALL TO http://localhost/poorbuk/index.php
 //controller transform it into  view/index.php and shows error (PAGE  404.php)
 
 

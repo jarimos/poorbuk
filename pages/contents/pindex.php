@@ -31,7 +31,7 @@
                                 <button class="linkGeneral forgotMyPass buttonGeneralJarim myButtonsLoveClone" id="buttonIForgotMyPass" style="margin-left:0px;margin-bottom:0px;margin-top:10px;">Olvidé mi contraseña</button>
                                 <!--<a class="linkGeneral nuevoUsuario buttonGeneralJarim myButtonsLoveClone" id="nuevousuario" style="margin-left:0px;margin-bottom:0px;margin-top:10px;" href= "http://localhost/index?page=registrarse">Nuevo usuario</a>			
 				</br></br>
-				<a class="linkGeneral forgotMyPass buttonGeneralJarim myButtonsLoveClone" id="buttonIForgotMyPass" style="margin-left:0px;margin-bottom:0px;margin-top:10px;" href= "http://localhost/index.php?page=iniciarsesionolvidepass">Olvidé mi contraseña</a>
+				<a class="linkGeneral forgotMyPass buttonGeneralJarim myButtonsLoveClone" id="buttonIForgotMyPass" style="margin-left:0px;margin-bottom:0px;margin-top:10px;" href= "http://localhost/poorbuk/index.php?page=iniciarsesionolvidepass">Olvidé mi contraseña</a>
 				-->
 
 	

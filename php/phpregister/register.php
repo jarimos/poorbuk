@@ -81,8 +81,8 @@
                 $newUser->randomPassUpdateLogInRegister();
                 $myUser = $newUser->makeUserJsonForLogIn();
                 $newUser->updateUserIP();		
-                //2018 ENABLE IN SERVER temporary disabled locally 
-                $newUser->registerSendMail();	
+                //2019 ENABLE IN SERVER temporary disabled locally 
+                //$newUser->registerSendMail();	
 
             }			
             else // IF FOLDER CAN'T BE CREATED OR UPDATED

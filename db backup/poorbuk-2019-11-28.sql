@@ -340,7 +340,6 @@ CREATE TABLE IF NOT EXISTS `poorbuk_user_table` (
   `userid` bigint(20) NOT NULL AUTO_INCREMENT,
   `username` varchar(30) CHARACTER SET utf8 DEFAULT NULL,
   `passUserOriginalCoded` varchar(150) CHARACTER SET utf8 DEFAULT NULL,
-  `passUserOriginalCoded` varchar(150) CHARACTER SET utf8 DEFAULT NULL,
   `usermail` varchar(50) CHARACTER SET utf8 DEFAULT NULL,
   `userphoto` varchar(200) CHARACTER SET utf8 DEFAULT 'application/files/profileimages/myprofil.jpg',
   `userdescription` varchar(3000) CHARACTER SET utf8 DEFAULT NULL,

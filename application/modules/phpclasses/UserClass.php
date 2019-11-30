@@ -443,7 +443,7 @@ function mailToForgotMyPass($passUserRandomNow)//$userid,$ip)
             //echo ' - $mail = '.$mail;
             $subject = 'Poorbook: your username and pass' ;
             //$message ="Please, press this link and create a new password: http://localhost/poorbuk/iniciarsesionolvidepassnewpass.php?a=".$passUserRandomNow;
-            $message ="Please, press this link and create a new password: http://localhost/index.php?page=iniciarsesionolvidepassnewpass&a=".$passUserRandomNow;
+            $message ="Please, press this link and create a new password: http://localhost/poorbuk/index.php?page=iniciarsesionolvidepassnewpass&a=".$passUserRandomNow;
             //the first adress is the adress the mail will be sent. The question is: who is sent to? user or admin?
             $this->status = mail($mail, $subject, $message, "From: " .$adminmail);
             //echo "Thanks a lot for helping people using poorbook. Your password have been sent to your email Enjoy :D";

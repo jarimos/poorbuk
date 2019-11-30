@@ -64,7 +64,7 @@ $myUserURLSession = getUserURLNow();
 $myUserURLSessionWebId= getWebId($myUserURLSession);
 $myUserURLFinalPath=getFinalPath($myUserURLSession);
   
-/*FOR TESTING PURPOSES*/
+/*FOR TESTING PURPOSES
 echo "<br>CONTROLLER ";
 echo "<br>myUserIdSession = ".$myUserIdSession;
 echo "<br>myUserURLSession = ".$myUserURLSession;

@@ -68,7 +68,7 @@ $profileUpdate = $newProfile->profileUpdate($userid,$myusername,$myuserbirthday,
     //var pathProfile = poorbuk_Path_Htttp_Global +"index?page=profile";
     //alert (pathProfile);
     //WORKS FINE
-    window.top.location.assign( "http://localhost/index.php?page=profile");
+    window.top.location.assign( "http://localhost/poorbuk/index.php?page=profile");
     // DOES NOT WORK window.top.location.assign( pathProfile);
-    //DOES NOT WORK location.replace("http://localhost/index.php?page=profile");
+    //DOES NOT WORK location.replace("http://localhost/poorbuk/index.php?page=profile");
 </script>  

@@ -1,7 +1,7 @@
 <?php
         
-    $username = "poorbuk_com";
-    $password = "Sarah777";
-    $mydatabase= "poorbuk_com";
-    $hostname = "poorbuk.com.mysql";
+    $username = "jarimos";
+    $password = "sarah";
+    $mydatabase= "poorbuk";
+    $hostname = "localhost";
 	

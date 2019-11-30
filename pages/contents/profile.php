@@ -15,7 +15,7 @@
 </tr>
 <tr >
 	<td>
-		<a class="buttonGeneralJarim myButtonsLoveClone" id="buttonChangeProfile" href="/index.php?page=profileedit">Change Profile</a><br><br>
+		<a class="buttonGeneralJarim myButtonsLoveClone" id="buttonChangeProfile" href="/poorbuk/index.php?page=profileedit">Change Profile</a><br><br>
 	</td>
 
 </tr>

@@ -30,7 +30,7 @@ function register()
         //alert('LOCAL STORAGE AND VARIABLES INITIALIZED');
 	
 	/***********POST register.php***************/	
-	$.post("http://localhost/php/phpregister/register.php",
+	$.post("http://localhost/poorbuk/php/phpregister/register.php",
 	//$.post(localStorage["poorbook.poorbuk_Path_Relativ_Global"]+"php/phpregister/register.php",
 	{
 		name: name,
@@ -81,7 +81,7 @@ function register()
 		
 		alert('obj.status = '+obj.status);
                 */
-                window.location.assign("http://localhost/index.php?page=poorbuk");
+                window.location.assign("http://localhost/poorbuk/index.php?page=poorbuk");
 		} 
 		if(obj.status=='error')
 		{

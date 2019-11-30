@@ -128,7 +128,7 @@ function registerForgotPass()
                 //var userroll = localStorage["poorbook.userroll"];
                 //window.location.replace("poorbuk.php");
                 //window.location.replace("poorbuk.php");
-                window.location.replace("http://localhost/index.php?page=poorbuk");
+                window.location.replace("http://localhost/poorbuk/index.php?page=poorbuk");
         } 
         if(obj.status=='error')
         {
@@ -141,7 +141,7 @@ function registerForgotPass()
  		setTimeout(function() 
 		{
                     //window.location.replace("iniciarsesionolvidepass.php");
-                    //window.location.replace("http://localhost/index.php?page=pindex");
+                    //window.location.replace("http://localhost/poorbuk/index.php?page=pindex");
 		}, 5000);               
                 
 

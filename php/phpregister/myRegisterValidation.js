@@ -49,7 +49,7 @@ function validate()
 		$('#mail').focus() ;
 		return false;
 	   }
-	   
+	   /*
 	   if( $('#mail').val() != $('#mail2').val())
 	   {
 
@@ -62,6 +62,8 @@ function validate()
 		 $('#mail2').focus() ;
 		 return false;
 	   }
+         * 
+            */
 	   
 	   if( $('#pass').val() == "")
 	   {

@@ -47,10 +47,11 @@ if ($TemplateName == "pindex.php") { echo '
 '; }
 ?> 
        <?php	
+//echo '$TemplateName= '.$TemplateName;
 if ($TemplateName == "registrarse.php") { echo '
         <!-- registrarse.php -->
-    <script src="/php/phpregister/register.js"></script>
-    <script src="/php/phpregister/myRegisterValidation.js"></script>
+    <script src="http://localhost/poorbuk/php/phpregister/register.js?update=1111"></script>
+    <script src="http://localhost/poorbuk/php/phpregister/myRegisterValidation.js"></script>
 '; }
 ?> 
     
