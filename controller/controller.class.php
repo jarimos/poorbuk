@@ -163,6 +163,7 @@ if($fileFounded == false)
         else
         {
             if( 
+				$TemplateName == "gdpr.php" ||
                 $TemplateName == "acercade.php" || $TemplateName == "contact.php" || $TemplateName == "iniciarsesionolvidepass.php" ||
                 $TemplateName == "iniciarsesionolvidepassmessage.php" || $TemplateName == "iniciarsesionolvidepassnewpass.php" || 
                 $TemplateName == "inicio.php" || $TemplateName == "registrarse.php" || $TemplateName == "pindex.php" || $TemplateName == "app.php" 

@@ -6,6 +6,9 @@
 
   <!--STANDADRD CSS FOR MENUS-->
 <!--<link rel="stylesheet" href="css/w3.css">-->
+
+
+
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/templatemo_style_fix_menu.css" rel="stylesheet" type="text/css">
   <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
@@ -20,6 +23,25 @@
    <!-- <script src="http://code.jquery.com/jquery-latest.js"></script>-->
          <script src="js/jquery-1.10.1.js"></script>
 
+
+<!-- GDPR -->
+<link href="css/jquery-eu-cookie-law-popup.css" rel="stylesheet">
+
+<!--
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>-->
+<script src="js/jquery-eu-cookie-law-popup.js"></script>
+<!-- Custom positions -->
+<div class="eupopup eupopup-top"></div>
+<div class="eupopup eupopup-fixedtop"></div>
+<div class="eupopup eupopup-bottom"></div>
+<div class="eupopup eupopup-bottomleft"></div>
+<div class="eupopup eupopup-bottomright"></div>
+<div class="eupopup eupopup-block"></div>
+
+<!-- Custom colors & styles -->
+<div class="eupopup eupopup-color-default"></div>
+<div class="eupopup eupopup-color-inverse"></div>
+<div class="eupopup eupopup-style-compact"></div>
 
 <?php 	
 	include_once(POORBUK_PATH_ABSOLUTE_ROOT."/pages/menus/menuPoorbukOutside.php"); 
